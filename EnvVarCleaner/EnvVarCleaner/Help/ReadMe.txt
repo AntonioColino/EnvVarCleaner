@@ -1,0 +1,19 @@
+RegularJoeSoftware EnvVarCleaner
+====================================================================
+Feb 9, 2016
+
+
+DISCLAIMER:
+===========
+
+This software is furnished under license and may only be used or copied
+in accordance with the terms of the license.  The information in this
+manual is furnished for informational use only, is subject to change
+without notice, and should not be construed as a commitment by RegularJoeSoftware
+Corporation.  RegularJoeSoftware Corporation assumes no responsibility or liability
+for any errors or inaccuracies that may appear in this document or any
+software that may be provided in association with this document.  Except
+as permitted by such license, no part of this document may be reproduced,
+stored in a retrieval system, or transmitted in any form or by any means
+without the express written consent of RegularJoeSoftware Corporation.
+

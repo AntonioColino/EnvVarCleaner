@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="c8e8befb-04db-4a66-94df-d2e28c68c36e" Title="EnvCleanerUI Namespace" Url="html/1855969137.htm">
+    <HelpTOCNode Id="41f9532f-cbd2-48f6-9b41-55149ca65f11" Title="App Class" Url="html/880226621.htm">
+      <HelpTOCNode Title="App Members" Url="html/310960102.htm" />
+      <HelpTOCNode Id="6090fdc2-5e4a-490b-ac35-b438bb7872dd" Title="App Fields" Url="html/1077879287.htm">
+        <HelpTOCNode Title="Appdirectory Field" Url="html/2069268980.htm" />
+        <HelpTOCNode Title="Appname Field" Url="html/268386483.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="App Methods" Url="html/1943889003.htm" />
+      <HelpTOCNode Id="4e9324cb-437f-4673-aac4-46db2d57a33d" Title="App Properties" Url="html/2118403546.htm">
+        <HelpTOCNode Title="AppDirectory Property " Url="html/2134749149.htm" />
+        <HelpTOCNode Title="AppName Property " Url="html/385850962.htm" />
+        <HelpTOCNode Title="Verbose Property " Url="html/1037604107.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6db033b3-6717-4d5a-a9ff-01d0972f3aad" Title="EditModel Class" Url="html/163813593.htm">
+      <HelpTOCNode Title="EditModel Members" Url="html/1087607975.htm" />
+      <HelpTOCNode Title="EditModel Constructor " Url="html/1034984162.htm" />
+      <HelpTOCNode Id="18a4df18-9e25-4689-89b5-55981dd9fb35" Title="EditModel Fields" Url="html/534424613.htm">
+        <HelpTOCNode Title="EmptyString Field" Url="html/1241001840.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EditModel Methods" Url="html/895399272.htm" />
+      <HelpTOCNode Id="04b6651c-99ab-4e13-9930-3a6c5e9e4cd4" Title="EditModel Type Conversions" Url="html/844610699.htm">
+        <HelpTOCNode Id="e43a2648-2794-4f3a-8749-47a4e78340e8" Title="Explicit Conversion Operators" Url="html/1977897756.htm">
+          <HelpTOCNode Title="Explicit Conversion (EnvVarSetting to EditModel)" Url="html/311217443.htm" />
+          <HelpTOCNode Title="Explicit Conversion (EditModel to EnvVarSetting)" Url="html/175477140.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="61f98d14-6f11-49c1-a356-259e458b1df7" Title="EditModel Properties" Url="html/472244743.htm">
+        <HelpTOCNode Title="CanEditName Property " Url="html/1922481241.htm" />
+        <HelpTOCNode Title="CanEditTarget Property " Url="html/178160692.htm" />
+        <HelpTOCNode Title="CanEditValue Property " Url="html/136300488.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/1859355031.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/1440724541.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/498499193.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3262541b-81ed-4b43-a56f-d60eb8156df5" Title="EditWindow Class" Url="html/835726701.htm">
+      <HelpTOCNode Title="EditWindow Members" Url="html/1722441116.htm" />
+      <HelpTOCNode Title="EditWindow Constructor " Url="html/681991983.htm" />
+      <HelpTOCNode Id="d79a3b0e-2763-45ed-af87-fcac86c60115" Title="EditWindow Methods" Url="html/1052878465.htm">
+        <HelpTOCNode Title="CancelClicked Method " Url="html/874185702.htm" />
+        <HelpTOCNode Title="DeleteClicked Method " Url="html/1169182418.htm" />
+        <HelpTOCNode Title="OnClosing Method " Url="html/1937169580.htm" />
+        <HelpTOCNode Title="SaveClicked Method " Url="html/1405282185.htm" />
+        <HelpTOCNode Title="Show Method " Url="html/800759687.htm" />
+        <HelpTOCNode Title="Update Method " Url="html/407307.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e6da7539-5871-4466-af7c-5786b5f05d68" Title="EditWindow Properties" Url="html/644356768.htm">
+        <HelpTOCNode Title="EditModel Property " Url="html/2092404441.htm" />
+        <HelpTOCNode Title="Result Property " Url="html/901665795.htm" />
+        <HelpTOCNode Title="Setting Property " Url="html/1809127219.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c1d2823e-a0cb-4137-9d29-86ef144ebd0b" Title="EnvVarActions Class" Url="html/438678204.htm">
+      <HelpTOCNode Title="EnvVarActions Members" Url="html/54381726.htm" />
+      <HelpTOCNode Id="f1dc690f-2c0f-4197-91e0-c83716fe02d2" Title="EnvVarActions Methods" Url="html/1370536309.htm">
+        <HelpTOCNode Title="CleanEnvVar Method " Url="html/1653967821.htm" />
+        <HelpTOCNode Title="DeleteEnvVar Method " Url="html/1014683199.htm" />
+        <HelpTOCNode Title="ExportEnvVar Method " Url="html/1541203.htm" />
+        <HelpTOCNode Title="GetEnvironmentVariables Method " Url="html/776549370.htm" />
+        <HelpTOCNode Title="HandleError Method " Url="html/476663080.htm" />
+        <HelpTOCNode Title="HandleMsg Method " Url="html/475300203.htm" />
+        <HelpTOCNode Title="ImportEnvVar Method " Url="html/1528195315.htm" />
+        <HelpTOCNode Title="IsExistingEnvVar Method " Url="html/263092353.htm" />
+        <HelpTOCNode Title="PathExists Method " Url="html/785140689.htm" />
+        <HelpTOCNode Title="QuestionSetting Method " Url="html/596354383.htm" />
+        <HelpTOCNode Title="SetEnvVar Method " Url="html/467306111.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="EnvVarActions.EnvVarSettingFunction Delegate" Url="html/1664856176.htm" />
+    <HelpTOCNode Id="228f64d9-5b42-4a8d-9059-151e7dabf346" Title="EnvVarSetting Class" Url="html/658621101.htm">
+      <HelpTOCNode Title="EnvVarSetting Members" Url="html/1952430794.htm" />
+      <HelpTOCNode Title="EnvVarSetting Constructor " Url="html/1245892027.htm" />
+      <HelpTOCNode Id="d8fffe58-239c-43ae-b0a2-0662065b520d" Title="EnvVarSetting Fields" Url="html/537552371.htm">
+        <HelpTOCNode Title="DefaultSetting Field" Url="html/2017026096.htm" />
+        <HelpTOCNode Title="EmptyString Field" Url="html/624450567.htm" />
+        <HelpTOCNode Title="myTarget Field" Url="html/2094172227.htm" />
+        <HelpTOCNode Title="name Field" Url="html/1557915845.htm" />
+        <HelpTOCNode Title="value Field" Url="html/804001611.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bcb586d6-665c-45a8-a6a0-25ec4a8bccb3" Title="EnvVarSetting Methods" Url="html/2108811732.htm">
+        <HelpTOCNode Title="Clear Method " Url="html/484695312.htm" />
+        <HelpTOCNode Id="07c295a2-7898-4b55-b6e6-551b61f9cad6" Title="Equals Method " Url="html/453666594.htm">
+          <HelpTOCNode Title="Equals Method (EnvVarSetting)" Url="html/1246660087.htm" />
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/1502831205.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="FromString Method " Url="html/1984800365.htm" />
+        <HelpTOCNode Title="GetHashCode Method " Url="html/1470979684.htm" />
+        <HelpTOCNode Title="HasAllTargets Method " Url="html/1235458844.htm" />
+        <HelpTOCNode Id="55f784aa-3d6a-47cb-ad36-7188b6f772f6" Title="IsTarget Method " Url="html/360913991.htm">
+          <HelpTOCNode Title="IsTarget Method " Url="html/6917274.htm" />
+          <HelpTOCNode Title="IsTarget Method (EnvironmentVariableTarget)" Url="html/1336982241.htm" />
+          <HelpTOCNode Title="IsTarget Method (IEnumerable(EnvironmentVariableTarget))" Url="html/1718796947.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToString Method " Url="html/1934954161.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5e23ee8f-fc17-4203-b292-a7f03aedaa95" Title="EnvVarSetting Type Conversions" Url="html/1477910282.htm">
+        <HelpTOCNode Id="3468ec51-d9db-4103-84bf-aa3d220a1c4f" Title="Implicit Conversion Operators" Url="html/1756118701.htm">
+          <HelpTOCNode Title="Implicit Conversion (EnvVarSetting to EditModel)" Url="html/1417546625.htm" />
+          <HelpTOCNode Title="Implicit Conversion (EditModel to EnvVarSetting)" Url="html/1042065974.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="a07af47e-ea80-4eb2-b61a-db13d82e340e" Title="EnvVarSetting Properties" Url="html/624722611.htm">
+        <HelpTOCNode Title="Name Property " Url="html/1118659597.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/1848945785.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/779787267.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="EnvVarTarget Enumeration" Url="html/1869138910.htm" />
+    <HelpTOCNode Id="93d96dc4-3f87-4ac1-b3a6-82697b21eab1" Title="FlipConverter Class" Url="html/1298417988.htm">
+      <HelpTOCNode Title="FlipConverter Members" Url="html/247253760.htm" />
+      <HelpTOCNode Id="58d2f16b-5cd2-4bd9-9e4f-552d70bb2dbf" Title="FlipConverter Methods" Url="html/778244075.htm">
+        <HelpTOCNode Title="Convert Method " Url="html/738510850.htm" />
+        <HelpTOCNode Title="ConvertBack Method " Url="html/287330096.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5ef97e40-87c0-4531-af22-2a13ac5da477" Title="MainWindow Class" Url="html/179921130.htm">
+      <HelpTOCNode Title="MainWindow Members" Url="html/373217484.htm" />
+      <HelpTOCNode Title="MainWindow Constructor " Url="html/1621084941.htm" />
+      <HelpTOCNode Id="4bd34c33-080b-4ac1-afa0-ba423ed71c06" Title="MainWindow Fields" Url="html/1560984748.htm">
+        <HelpTOCNode Title="helpFile Field" Url="html/631823957.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2645df08-85c4-4b53-8843-babb750deefb" Title="MainWindow Methods" Url="html/568843016.htm">
+        <HelpTOCNode Title="AddOnClick Method " Url="html/2013990753.htm" />
+        <HelpTOCNode Title="CleanOnClick Method " Url="html/751826041.htm" />
+        <HelpTOCNode Title="Dg1SelectionChanged Method " Url="html/1118979183.htm" />
+        <HelpTOCNode Title="EditOnClick Method " Url="html/1930824685.htm" />
+        <HelpTOCNode Title="ExportOnClick Method " Url="html/623042820.htm" />
+        <HelpTOCNode Title="HelpOnClick Method " Url="html/1190604823.htm" />
+        <HelpTOCNode Title="ImportOnClick Method " Url="html/1683112457.htm" />
+        <HelpTOCNode Title="OptionComboBoxOnSelectionChanged Method " Url="html/887148646.htm" />
+        <HelpTOCNode Title="RemoveOnClick Method " Url="html/1413786171.htm" />
+        <HelpTOCNode Title="Update Method " Url="html/1642755184.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="150ad55e-cd0b-4b07-ba98-85fc75f7737d" Title="MainWindow Properties" Url="html/412832008.htm">
+        <HelpTOCNode Title="AllEnvVarSettings Property " Url="html/1708131732.htm" />
+        <HelpTOCNode Title="DeleteUnconfirmedEntries Property " Url="html/2136785103.htm" />
+        <HelpTOCNode Title="OptionTarget Property " Url="html/1170428827.htm" />
+        <HelpTOCNode Title="SelectedItem Property " Url="html/11589988.htm" />
+        <HelpTOCNode Title="UseShortPaths Property " Url="html/1452398277.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6b1d7520-923a-4d66-af95-f094eff48b4c" Title="PathName Class" Url="html/261903208.htm">
+      <HelpTOCNode Title="PathName Members" Url="html/1288384603.htm" />
+      <HelpTOCNode Id="23583515-dcbc-4da2-9797-63b606378715" Title="PathName Fields" Url="html/2017647180.htm">
+        <HelpTOCNode Title="MaxPath Field" Url="html/1859747914.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="38c1395a-7cd5-4cc7-bed6-2f8107409e75" Title="PathName Methods" Url="html/982513943.htm">
+        <HelpTOCNode Title="GetLongPathName Method " Url="html/588480837.htm" />
+        <HelpTOCNode Title="GetShortPathName Method " Url="html/671620428.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4bb88f26-4ef6-47a4-b7dc-9dcae62f80ed" Title="PathName.NativeMethods Class" Url="html/1413140848.htm">
+      <HelpTOCNode Title="PathName.NativeMethods Members" Url="html/1281263070.htm" />
+      <HelpTOCNode Id="becf68c6-9cce-4023-956f-613bb0563152" Title="PathName.NativeMethods Methods" Url="html/952070886.htm">
+        <HelpTOCNode Title="GetLongPathName Method " Url="html/786403379.htm" />
+        <HelpTOCNode Title="GetShortPathName Method " Url="html/1220622635.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bc352325-4c21-4078-8af5-9dcb72fe5bba" Title="UIText Class" Url="html/617744469.htm">
+      <HelpTOCNode Title="UIText Members" Url="html/1622321596.htm" />
+      <HelpTOCNode Id="796a2630-81c3-4883-997f-19e4a4d8e214" Title="UIText Fields" Url="html/142532484.htm">
+        <HelpTOCNode Title="AreYouSure Field" Url="html/605354924.htm" />
+        <HelpTOCNode Title="AreYouSureG Field" Url="html/441028958.htm" />
+        <HelpTOCNode Title="AreYouSureIt Field" Url="html/438145388.htm" />
+        <HelpTOCNode Title="AreYouSureOw Field" Url="html/438210918.htm" />
+        <HelpTOCNode Title="AreYouSureWv Field" Url="html/438276430.htm" />
+        <HelpTOCNode Title="Comma Field" Url="html/1420625526.htm" />
+        <HelpTOCNode Title="CommitChanges Field" Url="html/2027952377.htm" />
+        <HelpTOCNode Title="CommitPaths Field" Url="html/1547685318.htm" />
+        <HelpTOCNode Title="ConfirmChanges Field" Url="html/1366039702.htm" />
+        <HelpTOCNode Title="Copy Field" Url="html/1558897136.htm" />
+        <HelpTOCNode Title="Delimitter Field" Url="html/913703064.htm" />
+        <HelpTOCNode Title="DiscardChanges Field" Url="html/611301730.htm" />
+        <HelpTOCNode Title="DiscardPath Field" Url="html/1835954593.htm" />
+        <HelpTOCNode Title="Divider Field" Url="html/503621976.htm" />
+        <HelpTOCNode Title="EmptyString Field" Url="html/285094580.htm" />
+        <HelpTOCNode Title="EndCap Field" Url="html/943946799.htm" />
+        <HelpTOCNode Title="EnvVarEntry Field" Url="html/796474581.htm" />
+        <HelpTOCNode Title="EnvVarExists Field" Url="html/1616035975.htm" />
+        <HelpTOCNode Title="EnvVarNotExists Field" Url="html/1553366883.htm" />
+        <HelpTOCNode Title="EnvVarNotFound Field" Url="html/1619199783.htm" />
+        <HelpTOCNode Title="EnvVarNull Field" Url="html/600860180.htm" />
+        <HelpTOCNode Title="EnvVarOriginal Field" Url="html/1370477420.htm" />
+        <HelpTOCNode Title="EnvVarParseError Field" Url="html/1971409941.htm" />
+        <HelpTOCNode Title="EnvVarXName Field" Url="html/1253054509.htm" />
+        <HelpTOCNode Title="HasBeenCleaned Field" Url="html/1645537348.htm" />
+        <HelpTOCNode Title="HasBeenDeleted Field" Url="html/1668270361.htm" />
+        <HelpTOCNode Title="HasBeenSet Field" Url="html/1944547883.htm" />
+        <HelpTOCNode Title="HelpFileError Field" Url="html/2140923302.htm" />
+        <HelpTOCNode Title="L Field" Url="html/1640119071.htm" />
+        <HelpTOCNode Title="Long Field" Url="html/7055751.htm" />
+        <HelpTOCNode Title="MaxPath Field" Url="html/1209359200.htm" />
+        <HelpTOCNode Title="MboxRangeError Field" Url="html/641043657.htm" />
+        <HelpTOCNode Title="N Field" Url="html/477319657.htm" />
+        <HelpTOCNode Title="No Field" Url="html/689024535.htm" />
+        <HelpTOCNode Title="NoChanges Field" Url="html/275766350.htm" />
+        <HelpTOCNode Title="NoEnvSelected Field" Url="html/1744076386.htm" />
+        <HelpTOCNode Title="OpenFileExt Field" Url="html/598058315.htm" />
+        <HelpTOCNode Title="OpenFileFilter Field" Url="html/586699269.htm" />
+        <HelpTOCNode Title="OpenFileTitle Field" Url="html/962039103.htm" />
+        <HelpTOCNode Title="ParseError Field" Url="html/1787516362.htm" />
+        <HelpTOCNode Title="PermentDelete Field" Url="html/2060883595.htm" />
+        <HelpTOCNode Title="QuestionChanges Field" Url="html/552856648.htm" />
+        <HelpTOCNode Title="QuestionPaths Field" Url="html/231913981.htm" />
+        <HelpTOCNode Title="S Field" Url="html/638425590.htm" />
+        <HelpTOCNode Title="SaveFileExt Field" Url="html/44324842.htm" />
+        <HelpTOCNode Title="SaveFileFilter Field" Url="html/1037414375.htm" />
+        <HelpTOCNode Title="SaveFileTitle Field" Url="html/965925267.htm" />
+        <HelpTOCNode Title="Short Field" Url="html/2057093541.htm" />
+        <HelpTOCNode Title="UnknownEnvVarTarget Field" Url="html/2060055959.htm" />
+        <HelpTOCNode Title="XName Field" Url="html/1513974383.htm" />
+        <HelpTOCNode Title="XTarget Field" Url="html/1897339054.htm" />
+        <HelpTOCNode Title="XValue Field" Url="html/900456257.htm" />
+        <HelpTOCNode Title="Y Field" Url="html/168143464.htm" />
+        <HelpTOCNode Title="Yes Field" Url="html/320333637.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="UIText Methods" Url="html/274139188.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="654501f9-ca17-4eda-939b-6e40a87907b3" Title="EnvCleanerUI.Properties Namespace" Url="html/488365503.htm">
+    <HelpTOCNode Id="ecb894a3-8bf3-4731-a98a-2d7c1d9fdb44" Title="Resources Class" Url="html/1306097714.htm">
+      <HelpTOCNode Title="Resources Members" Url="html/1636972990.htm" />
+      <HelpTOCNode Title="Resources Constructor " Url="html/2031314145.htm" />
+      <HelpTOCNode Id="d0fa075a-7dc9-43ae-a212-c9fdcad8f847" Title="Resources Fields" Url="html/1081391148.htm">
+        <HelpTOCNode Title="resourceCulture Field" Url="html/990784089.htm" />
+        <HelpTOCNode Title="resourceMan Field" Url="html/1856410267.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Resources Methods" Url="html/1407483249.htm" />
+      <HelpTOCNode Id="bbe27072-8ff3-4dab-a043-ba7325a9cebc" Title="Resources Properties" Url="html/1925228917.htm">
+        <HelpTOCNode Title="Culture Property " Url="html/2040508016.htm" />
+        <HelpTOCNode Title="ResourceManager Property " Url="html/539019156.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bcabbe00-fef7-498f-9a52-e47835a6b06a" Title="Settings Class" Url="html/2144504198.htm">
+      <HelpTOCNode Title="Settings Members" Url="html/1943163595.htm" />
+      <HelpTOCNode Id="acf50e75-1cca-47ce-bfb3-4376742f2d0c" Title="Settings Fields" Url="html/1896679511.htm">
+        <HelpTOCNode Title="defaultInstance Field" Url="html/425509727.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Settings Methods" Url="html/1933820093.htm" />
+      <HelpTOCNode Id="f957f86b-c441-4012-8aa5-771288b66289" Title="Settings Properties" Url="html/1285305386.htm">
+        <HelpTOCNode Title="Default Property " Url="html/425483267.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Settings Events" Url="html/1783518183.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="84c4ae93-eb62-4a84-b55a-36e0e20e429f" Title="HelpCleaner Namespace" Url="html/1859543915.htm">
+    <HelpTOCNode Id="0cb49275-cfe5-42aa-bffc-932d73924760" Title="DirectoryStepEventArgs Class" Url="html/2115169896.htm">
+      <HelpTOCNode Title="DirectoryStepEventArgs Members" Url="html/250390626.htm" />
+      <HelpTOCNode Title="DirectoryStepEventArgs Constructor " Url="html/1577903931.htm" />
+      <HelpTOCNode Title="DirectoryStepEventArgs Methods" Url="html/482833494.htm" />
+      <HelpTOCNode Id="cd58cc8e-ece4-4383-82db-1e93d7c1eeff" Title="DirectoryStepEventArgs Properties" Url="html/838976653.htm">
+        <HelpTOCNode Title="Info Property " Url="html/293077612.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="DirectoryStepping Delegate" Url="html/927967602.htm" />
+    <HelpTOCNode Id="260f9db9-ea8c-46b1-9460-f8c15f933771" Title="DirectoryWalker Class" Url="html/1388738533.htm">
+      <HelpTOCNode Title="DirectoryWalker Members" Url="html/980589131.htm" />
+      <HelpTOCNode Id="390fff20-ee21-4b3d-946b-0286387f7147" Title="DirectoryWalker Constructor " Url="html/1296523919.htm">
+        <HelpTOCNode Title="DirectoryWalker Constructor " Url="html/1494585321.htm" />
+        <HelpTOCNode Title="DirectoryWalker Constructor (String, String)" Url="html/377460663.htm" />
+        <HelpTOCNode Title="DirectoryWalker Constructor (DirectoryInfo, String)" Url="html/1140602738.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9699eea2-26f7-4680-8648-eb5dbbc65242" Title="DirectoryWalker Fields" Url="html/671848387.htm">
+        <HelpTOCNode Title="AssemblyDirectory Field" Url="html/1847481280.htm" />
+        <HelpTOCNode Title="DefaultPattern Field" Url="html/361224580.htm" />
+        <HelpTOCNode Title="root Field" Url="html/1807558389.htm" />
+        <HelpTOCNode Title="rootPath Field" Url="html/1049745652.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b012ebc9-d17d-4335-868e-74363e6df825" Title="DirectoryWalker Methods" Url="html/1321878659.htm">
+        <HelpTOCNode Title="OnDirectoryStep Method " Url="html/38240643.htm" />
+        <HelpTOCNode Title="OnFileStep Method " Url="html/1345700997.htm" />
+        <HelpTOCNode Title="OnHandleError Method " Url="html/1659174274.htm" />
+        <HelpTOCNode Title="Walk Method " Url="html/1236906421.htm" />
+        <HelpTOCNode Id="36f2ea4a-075f-4325-91b2-b186f683eb60" Title="WalkDirectoryTree Method " Url="html/2138589602.htm">
+          <HelpTOCNode Title="WalkDirectoryTree Method (String, FileStepping, DirectoryStepping, HandleSteppingError, String)" Url="html/639712235.htm" />
+          <HelpTOCNode Title="WalkDirectoryTree Method (DirectoryInfo, FileStepping, DirectoryStepping, HandleSteppingError, String)" Url="html/1887383029.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="b5a16776-bfbc-4154-8100-5bd3983d7d7c" Title="DirectoryWalker Properties" Url="html/1968603799.htm">
+        <HelpTOCNode Title="Root Property " Url="html/1232017030.htm" />
+        <HelpTOCNode Title="RootPath Property " Url="html/1724529189.htm" />
+        <HelpTOCNode Title="SearchPatternsearchPattern Property " Url="html/1808484628.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3653504b-d5a5-48e5-a793-1efd9b86f28e" Title="FileStepEventArgs Class" Url="html/358809415.htm">
+      <HelpTOCNode Title="FileStepEventArgs Members" Url="html/1437397290.htm" />
+      <HelpTOCNode Title="FileStepEventArgs Constructor " Url="html/2104619912.htm" />
+      <HelpTOCNode Title="FileStepEventArgs Methods" Url="html/580463717.htm" />
+      <HelpTOCNode Id="4147ae0b-d2b2-4f61-9bc3-27265c7c7de2" Title="FileStepEventArgs Properties" Url="html/777313068.htm">
+        <HelpTOCNode Title="Info Property " Url="html/380219050.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="FileStepping Delegate" Url="html/727334817.htm" />
+    <HelpTOCNode Title="HandleSteppingError Delegate" Url="html/450271014.htm" />
+    <HelpTOCNode Id="e349f634-2b33-4edd-b4e9-65635d7044e8" Title="HelpDirectoryWalker Class" Url="html/1471617057.htm">
+      <HelpTOCNode Title="HelpDirectoryWalker Members" Url="html/281605357.htm" />
+      <HelpTOCNode Title="HelpDirectoryWalker Constructor " Url="html/418842260.htm" />
+      <HelpTOCNode Id="aa6adf3c-00ad-4bc2-8036-0bc65f4c8c28" Title="HelpDirectoryWalker Fields" Url="html/62357131.htm">
+        <HelpTOCNode Title="counter Field" Url="html/1479108362.htm" />
+        <HelpTOCNode Title="Filter Field" Url="html/21858182.htm" />
+        <HelpTOCNode Title="Replacement Field" Url="html/803244150.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5071e953-e72c-4823-98a9-99c9f5fa524b" Title="HelpDirectoryWalker Methods" Url="html/1280821966.htm">
+        <HelpTOCNode Title="OnDirectoryStep Method " Url="html/1666249340.htm" />
+        <HelpTOCNode Title="OnFileStep Method " Url="html/2057538464.htm" />
+        <HelpTOCNode Title="OnHandleError Method " Url="html/949005438.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="HelpDirectoryWalker Properties" Url="html/253951151.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ae31a351-bb4e-41d4-964c-bb4471f7f1a7" Title="Program Class" Url="html/191361308.htm">
+      <HelpTOCNode Title="Program Members" Url="html/1779267847.htm" />
+      <HelpTOCNode Id="74edbb41-7851-4c7e-b424-1081dfaca7bd" Title="Program Fields" Url="html/1073642615.htm">
+        <HelpTOCNode Title="HtmlHelpDirectory Field" Url="html/138402199.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4936236b-8b5d-4a40-b231-43542c47fc58" Title="Program Methods" Url="html/1876857987.htm">
+        <HelpTOCNode Title="Main Method " Url="html/470532252.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3930fcac-8dea-4ec4-bf6e-c987f35b44ee" Title="StepErrorEventArgs Class" Url="html/792452771.htm">
+      <HelpTOCNode Title="StepErrorEventArgs Members" Url="html/670420326.htm" />
+      <HelpTOCNode Title="StepErrorEventArgs Constructor " Url="html/812501362.htm" />
+      <HelpTOCNode Title="StepErrorEventArgs Methods" Url="html/1029292220.htm" />
+      <HelpTOCNode Id="c8bd4b8b-ca5f-49a7-9099-827f242cd779" Title="StepErrorEventArgs Properties" Url="html/1237460928.htm">
+        <HelpTOCNode Title="Info Property " Url="html/1357265907.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

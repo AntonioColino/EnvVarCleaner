@@ -1,0 +1,8 @@
+C:\Users\Joe.REGULARJOESOFT.000\Documents\Visual Studio 2015\Projects\EnvVarCleaner\HelpCleaner\bin\Release\HelpCleaner.exe.config
+C:\Users\Joe.REGULARJOESOFT.000\Documents\Visual Studio 2015\Projects\EnvVarCleaner\HelpCleaner\bin\Release\HelpCleaner.exe
+C:\Users\Joe.REGULARJOESOFT.000\Documents\Visual Studio 2015\Projects\EnvVarCleaner\HelpCleaner\bin\Release\HelpCleaner.pdb
+C:\Users\Joe.REGULARJOESOFT.000\Documents\Visual Studio 2015\Projects\EnvVarCleaner\HelpCleaner\obj\Release\HelpCleaner.exe
+C:\Users\Joe.REGULARJOESOFT.000\Documents\Visual Studio 2015\Projects\EnvVarCleaner\HelpCleaner\obj\Release\HelpCleaner.pdb
+D:\GitHub\EnvVarCleaner\NewRepo\EnvVarCleaner\EnvVarCleaner\HelpCleaner\bin\Release\HelpCleaner.exe.config
+D:\GitHub\EnvVarCleaner\NewRepo\EnvVarCleaner\EnvVarCleaner\HelpCleaner\obj\Release\HelpCleaner.exe
+D:\GitHub\EnvVarCleaner\NewRepo\EnvVarCleaner\EnvVarCleaner\HelpCleaner\obj\Release\HelpCleaner.pdb

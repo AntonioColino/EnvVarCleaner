@@ -1,0 +1,5 @@
+C:\Users\Joe.REGULARJOESOFT.000\Documents\Visual Studio 2015\Projects\EnvVarCleaner\HelpCleaner\bin\Debug\HelpCleaner.exe.config
+C:\Users\Joe.REGULARJOESOFT.000\Documents\Visual Studio 2015\Projects\EnvVarCleaner\HelpCleaner\bin\Debug\HelpCleaner.exe
+C:\Users\Joe.REGULARJOESOFT.000\Documents\Visual Studio 2015\Projects\EnvVarCleaner\HelpCleaner\bin\Debug\HelpCleaner.pdb
+C:\Users\Joe.REGULARJOESOFT.000\Documents\Visual Studio 2015\Projects\EnvVarCleaner\HelpCleaner\obj\Debug\HelpCleaner.exe
+C:\Users\Joe.REGULARJOESOFT.000\Documents\Visual Studio 2015\Projects\EnvVarCleaner\HelpCleaner\obj\Debug\HelpCleaner.pdb

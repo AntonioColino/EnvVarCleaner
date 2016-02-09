@@ -1,0 +1,104 @@
+﻿<Window x:Class="EnvCleanerUI.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:core="clr-namespace:System;assembly=mscorlib"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:EnvCleanerUI"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="EditWindow"
+        Width="679"
+        Height="125"
+        DataContext="{Binding EditModel,
+                              RelativeSource={RelativeSource FindAncestor,
+                                                             AncestorType={x:Type local:EditWindow}}}"
+        IsEnabled="True"
+        OverridesDefaultStyle="False"
+        ResizeMode="NoResize"
+        ShowActivated="True"
+        ShowInTaskbar="False"
+        SizeToContent="WidthAndHeight"
+        Topmost="True"
+        WindowStartupLocation="CenterOwner"
+        WindowState="Normal"
+        WindowStyle="ToolWindow"
+        mc:Ignorable="d">
+    <Window.Resources>
+        <local:FlipConverter x:Key="FlipConverter" />
+    </Window.Resources>
+    <StackPanel Margin="0,0,4,9">
+        <StackPanel.Resources>
+            <ObjectDataProvider x:Key="MyEnum"
+                                MethodName="GetValues"
+                                ObjectType="{x:Type core:Enum}">
+                <ObjectDataProvider.MethodParameters>
+                    <x:Type Type="core:EnvironmentVariableTarget" />
+                </ObjectDataProvider.MethodParameters>
+            </ObjectDataProvider>
+        </StackPanel.Resources>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Width="669" Height="45">
+            <TextBox x:Name="NameTextBox"
+                     Width="250"
+                     Height="24"
+                     Margin="10,0,0,0"
+                     IsReadOnly="{Binding EditModel.CanEditName,
+                                          Converter={StaticResource FlipConverter},
+                                          BindsDirectlyToSource=True,
+                                          RelativeSource={RelativeSource FindAncestor,
+                                                                         AncestorType={x:Type local:EditWindow}}}"
+                     Text="{Binding EditModel.Name,
+                                    RelativeSource={RelativeSource FindAncestor,
+                                                                   AncestorType={x:Type local:EditWindow}}}"
+                     TextWrapping="Wrap" />
+            <TextBox x:Name="ValueTextBox"
+                     Width="250"
+                     Height="24"
+                     Margin="0,0,0,0"
+                     IsReadOnly="{Binding EditModel.CanEditValue,
+                                          Converter={StaticResource FlipConverter},
+                                          BindsDirectlyToSource=True,
+                                          RelativeSource={RelativeSource FindAncestor,
+                                                                         AncestorType={x:Type local:EditWindow}}}"
+                     Text="{Binding EditModel.Value,
+                                    RelativeSource={RelativeSource FindAncestor,
+                                                                   AncestorType={x:Type local:EditWindow}}}"
+                     TextWrapping="WrapWithOverflow" />
+            <ComboBox x:Name="TargetComboBox"
+                      Width="150"
+                      Height="24"
+                      Margin="0,10,0,10"
+                      HorizontalAlignment="Stretch"
+                      VerticalAlignment="Stretch"
+                      HorizontalContentAlignment="Left"
+                      VerticalContentAlignment="Center"
+                      IsReadOnly="{Binding EditModel.CanEditTarget,
+                                           Converter={StaticResource FlipConverter},
+                                           BindsDirectlyToSource=True,
+                                           RelativeSource={RelativeSource FindAncestor,
+                                                                          AncestorType={x:Type local:EditWindow}}}"
+                      ItemsSource="{Binding Source={StaticResource MyEnum}}"
+                      SelectedIndex="0"
+                      Text="{Binding EditModel.Target,
+                                     BindsDirectlyToSource=True,
+                                     RelativeSource={RelativeSource FindAncestor,
+                                                                    AncestorType={x:Type local:EditWindow}}}" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Width="120"
+                    Height="30"
+                    Margin="50,10,10,10"
+                    Click="DeleteClicked"
+                    Content="Delete"
+                    Visibility="Hidden" />
+            <Button Width="120"
+                    Height="30"
+                    Margin="10,10,10,10"
+                    Click="CancelClicked"
+                    Content="Cancel" />
+            <Button Width="120"
+                    Height="30"
+                    Margin="10,10,50,10"
+                    Click="SaveClicked"
+                    Content="Save" />
+        </StackPanel>
+    </StackPanel>
+</Window>

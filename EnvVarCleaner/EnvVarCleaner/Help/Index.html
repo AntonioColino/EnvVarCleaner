@@ -1,0 +1,993 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>EnvVarCleaner - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 90px; display: none;">
+	<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+		src="Close.png" height="24" width="24" alt="Hide Search" title="Hide Search" style="float: right;"/>
+	<span class="Title">Keyword(s) to search:</span>
+	<input id="txtSearchText" type="text" style="width: 100%;" 
+		onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+	<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label>
+	<input type="button" value="Search" onclick="javascript: return PerformSearch();" style="float: right;" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 28px; display: none;">
+	<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+		src="Close.png" height="24" width="24" alt="Hide Keyword Index" title="Hide Keyword Index" style="float: right;"/>
+	<span class="Title">Keyword Index</span>
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 28px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.png"
+        height="24" width="24" alt="Sync to TOC" title="Sync to TOC" />
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+        src="ExpandAll.png" height="24" width="24" alt="Expand all" title="Expand all" />
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.png" height="24" width="24" alt="Collapse all" title="Collapse all" />
+    <img class="TOCLink" onclick="javascript: ShowDirectLink();"
+        src="Link.png" height="24" width="24" alt="Get direct link to the displayed topic" title="Get direct link to the displayed topic" />
+    <a href="#" onclick="javascript: TopicContent.history.go(-1); return false;">
+		<img class="TOCLink" style="float: right;" 
+        src="Back.png" height="24" width="24" alt="Previous page" title="Previous page" /></a>
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1855969137.htm" target="TopicContent">EnvCleanerUI Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/880226621.htm" target="TopicContent">App Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/310960102.htm" target="TopicContent">App Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1077879287.htm" target="TopicContent">App Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2069268980.htm" target="TopicContent">Appdirectory Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/268386483.htm" target="TopicContent">Appname Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1943889003.htm" target="TopicContent">App Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2118403546.htm" target="TopicContent">App Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2134749149.htm" target="TopicContent">AppDirectory Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/385850962.htm" target="TopicContent">AppName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1037604107.htm" target="TopicContent">Verbose Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/163813593.htm" target="TopicContent">EditModel Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1087607975.htm" target="TopicContent">EditModel Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1034984162.htm" target="TopicContent">EditModel Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/534424613.htm" target="TopicContent">EditModel Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1241001840.htm" target="TopicContent">EmptyString Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/895399272.htm" target="TopicContent">EditModel Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/844610699.htm" target="TopicContent">EditModel Type Conversions</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1977897756.htm" target="TopicContent">Explicit Conversion Operators</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/311217443.htm" target="TopicContent">Explicit Conversion (EnvVarSetting to EditModel)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/175477140.htm" target="TopicContent">Explicit Conversion (EditModel to EnvVarSetting)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/472244743.htm" target="TopicContent">EditModel Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1922481241.htm" target="TopicContent">CanEditName Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/178160692.htm" target="TopicContent">CanEditTarget Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/136300488.htm" target="TopicContent">CanEditValue Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1859355031.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1440724541.htm" target="TopicContent">Target Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/498499193.htm" target="TopicContent">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/835726701.htm" target="TopicContent">EditWindow Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1722441116.htm" target="TopicContent">EditWindow Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/681991983.htm" target="TopicContent">EditWindow Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1052878465.htm" target="TopicContent">EditWindow Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/874185702.htm" target="TopicContent">CancelClicked Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1169182418.htm" target="TopicContent">DeleteClicked Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1937169580.htm" target="TopicContent">OnClosing Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1405282185.htm" target="TopicContent">SaveClicked Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/800759687.htm" target="TopicContent">Show Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/407307.htm" target="TopicContent">Update Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/644356768.htm" target="TopicContent">EditWindow Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2092404441.htm" target="TopicContent">EditModel Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/901665795.htm" target="TopicContent">Result Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1809127219.htm" target="TopicContent">Setting Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/438678204.htm" target="TopicContent">EnvVarActions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/54381726.htm" target="TopicContent">EnvVarActions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1370536309.htm" target="TopicContent">EnvVarActions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1653967821.htm" target="TopicContent">CleanEnvVar Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1014683199.htm" target="TopicContent">DeleteEnvVar Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1541203.htm" target="TopicContent">ExportEnvVar Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/776549370.htm" target="TopicContent">GetEnvironmentVariables Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/476663080.htm" target="TopicContent">HandleError Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/475300203.htm" target="TopicContent">HandleMsg Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1528195315.htm" target="TopicContent">ImportEnvVar Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/263092353.htm" target="TopicContent">IsExistingEnvVar Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/785140689.htm" target="TopicContent">PathExists Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/596354383.htm" target="TopicContent">QuestionSetting Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/467306111.htm" target="TopicContent">SetEnvVar Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1664856176.htm" target="TopicContent">EnvVarActions.EnvVarSettingFunction Delegate</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/658621101.htm" target="TopicContent">EnvVarSetting Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1952430794.htm" target="TopicContent">EnvVarSetting Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1245892027.htm" target="TopicContent">EnvVarSetting Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/537552371.htm" target="TopicContent">EnvVarSetting Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2017026096.htm" target="TopicContent">DefaultSetting Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/624450567.htm" target="TopicContent">EmptyString Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2094172227.htm" target="TopicContent">myTarget Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1557915845.htm" target="TopicContent">name Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/804001611.htm" target="TopicContent">value Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2108811732.htm" target="TopicContent">EnvVarSetting Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/484695312.htm" target="TopicContent">Clear Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/453666594.htm" target="TopicContent">Equals Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1246660087.htm" target="TopicContent">Equals Method (EnvVarSetting)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1502831205.htm" target="TopicContent">Equals Method (Object)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1984800365.htm" target="TopicContent">FromString Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1470979684.htm" target="TopicContent">GetHashCode Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1235458844.htm" target="TopicContent">HasAllTargets Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/360913991.htm" target="TopicContent">IsTarget Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6917274.htm" target="TopicContent">IsTarget Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1336982241.htm" target="TopicContent">IsTarget Method (EnvironmentVariableTarget)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1718796947.htm" target="TopicContent">IsTarget Method (IEnumerable(EnvironmentVariableTarget))</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1934954161.htm" target="TopicContent">ToString Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1477910282.htm" target="TopicContent">EnvVarSetting Type Conversions</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1756118701.htm" target="TopicContent">Implicit Conversion Operators</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1417546625.htm" target="TopicContent">Implicit Conversion (EnvVarSetting to EditModel)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1042065974.htm" target="TopicContent">Implicit Conversion (EditModel to EnvVarSetting)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/624722611.htm" target="TopicContent">EnvVarSetting Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1118659597.htm" target="TopicContent">Name Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1848945785.htm" target="TopicContent">Target Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/779787267.htm" target="TopicContent">Value Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1869138910.htm" target="TopicContent">EnvVarTarget Enumeration</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1298417988.htm" target="TopicContent">FlipConverter Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/247253760.htm" target="TopicContent">FlipConverter Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/778244075.htm" target="TopicContent">FlipConverter Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/738510850.htm" target="TopicContent">Convert Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/287330096.htm" target="TopicContent">ConvertBack Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/179921130.htm" target="TopicContent">MainWindow Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/373217484.htm" target="TopicContent">MainWindow Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1621084941.htm" target="TopicContent">MainWindow Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1560984748.htm" target="TopicContent">MainWindow Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/631823957.htm" target="TopicContent">helpFile Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/568843016.htm" target="TopicContent">MainWindow Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2013990753.htm" target="TopicContent">AddOnClick Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/751826041.htm" target="TopicContent">CleanOnClick Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1118979183.htm" target="TopicContent">Dg1SelectionChanged Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1930824685.htm" target="TopicContent">EditOnClick Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/623042820.htm" target="TopicContent">ExportOnClick Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1190604823.htm" target="TopicContent">HelpOnClick Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1683112457.htm" target="TopicContent">ImportOnClick Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/887148646.htm" target="TopicContent">OptionComboBoxOnSelectionChanged Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1413786171.htm" target="TopicContent">RemoveOnClick Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1642755184.htm" target="TopicContent">Update Method </a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/412832008.htm" target="TopicContent">MainWindow Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1708131732.htm" target="TopicContent">AllEnvVarSettings Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2136785103.htm" target="TopicContent">DeleteUnconfirmedEntries Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1170428827.htm" target="TopicContent">OptionTarget Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/11589988.htm" target="TopicContent">SelectedItem Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1452398277.htm" target="TopicContent">UseShortPaths Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/261903208.htm" target="TopicContent">PathName Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1288384603.htm" target="TopicContent">PathName Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2017647180.htm" target="TopicContent">PathName Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1859747914.htm" target="TopicContent">MaxPath Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/982513943.htm" target="TopicContent">PathName Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/588480837.htm" target="TopicContent">GetLongPathName Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/671620428.htm" target="TopicContent">GetShortPathName Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1413140848.htm" target="TopicContent">PathName.NativeMethods Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1281263070.htm" target="TopicContent">PathName.NativeMethods Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/952070886.htm" target="TopicContent">PathName.NativeMethods Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/786403379.htm" target="TopicContent">GetLongPathName Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1220622635.htm" target="TopicContent">GetShortPathName Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/617744469.htm" target="TopicContent">UIText Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1622321596.htm" target="TopicContent">UIText Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/142532484.htm" target="TopicContent">UIText Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/605354924.htm" target="TopicContent">AreYouSure Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/441028958.htm" target="TopicContent">AreYouSureG Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/438145388.htm" target="TopicContent">AreYouSureIt Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/438210918.htm" target="TopicContent">AreYouSureOw Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/438276430.htm" target="TopicContent">AreYouSureWv Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1420625526.htm" target="TopicContent">Comma Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2027952377.htm" target="TopicContent">CommitChanges Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1547685318.htm" target="TopicContent">CommitPaths Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1366039702.htm" target="TopicContent">ConfirmChanges Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1558897136.htm" target="TopicContent">Copy Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/913703064.htm" target="TopicContent">Delimitter Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/611301730.htm" target="TopicContent">DiscardChanges Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1835954593.htm" target="TopicContent">DiscardPath Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/503621976.htm" target="TopicContent">Divider Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/285094580.htm" target="TopicContent">EmptyString Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/943946799.htm" target="TopicContent">EndCap Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/796474581.htm" target="TopicContent">EnvVarEntry Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1616035975.htm" target="TopicContent">EnvVarExists Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1553366883.htm" target="TopicContent">EnvVarNotExists Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1619199783.htm" target="TopicContent">EnvVarNotFound Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/600860180.htm" target="TopicContent">EnvVarNull Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1370477420.htm" target="TopicContent">EnvVarOriginal Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1971409941.htm" target="TopicContent">EnvVarParseError Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1253054509.htm" target="TopicContent">EnvVarXName Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1645537348.htm" target="TopicContent">HasBeenCleaned Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1668270361.htm" target="TopicContent">HasBeenDeleted Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1944547883.htm" target="TopicContent">HasBeenSet Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2140923302.htm" target="TopicContent">HelpFileError Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1640119071.htm" target="TopicContent">L Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/7055751.htm" target="TopicContent">Long Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1209359200.htm" target="TopicContent">MaxPath Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/641043657.htm" target="TopicContent">MboxRangeError Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/477319657.htm" target="TopicContent">N Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/689024535.htm" target="TopicContent">No Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/275766350.htm" target="TopicContent">NoChanges Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1744076386.htm" target="TopicContent">NoEnvSelected Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/598058315.htm" target="TopicContent">OpenFileExt Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/586699269.htm" target="TopicContent">OpenFileFilter Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/962039103.htm" target="TopicContent">OpenFileTitle Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1787516362.htm" target="TopicContent">ParseError Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2060883595.htm" target="TopicContent">PermentDelete Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/552856648.htm" target="TopicContent">QuestionChanges Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/231913981.htm" target="TopicContent">QuestionPaths Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/638425590.htm" target="TopicContent">S Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/44324842.htm" target="TopicContent">SaveFileExt Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1037414375.htm" target="TopicContent">SaveFileFilter Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/965925267.htm" target="TopicContent">SaveFileTitle Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2057093541.htm" target="TopicContent">Short Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2060055959.htm" target="TopicContent">UnknownEnvVarTarget Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1513974383.htm" target="TopicContent">XName Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1897339054.htm" target="TopicContent">XTarget Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/900456257.htm" target="TopicContent">XValue Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/168143464.htm" target="TopicContent">Y Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/320333637.htm" target="TopicContent">Yes Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/274139188.htm" target="TopicContent">UIText Methods</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/488365503.htm" target="TopicContent">EnvCleanerUI.Properties Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1306097714.htm" target="TopicContent">Resources Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1636972990.htm" target="TopicContent">Resources Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2031314145.htm" target="TopicContent">Resources Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1081391148.htm" target="TopicContent">Resources Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/990784089.htm" target="TopicContent">resourceCulture Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1856410267.htm" target="TopicContent">resourceMan Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1407483249.htm" target="TopicContent">Resources Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1925228917.htm" target="TopicContent">Resources Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2040508016.htm" target="TopicContent">Culture Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/539019156.htm" target="TopicContent">ResourceManager Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2144504198.htm" target="TopicContent">Settings Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1943163595.htm" target="TopicContent">Settings Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1896679511.htm" target="TopicContent">Settings Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/425509727.htm" target="TopicContent">defaultInstance Field</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1933820093.htm" target="TopicContent">Settings Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1285305386.htm" target="TopicContent">Settings Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/425483267.htm" target="TopicContent">Default Property </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1783518183.htm" target="TopicContent">Settings Events</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1859543915.htm" target="TopicContent">HelpCleaner Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2115169896.htm" target="TopicContent">DirectoryStepEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/250390626.htm" target="TopicContent">DirectoryStepEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1577903931.htm" target="TopicContent">DirectoryStepEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/482833494.htm" target="TopicContent">DirectoryStepEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/838976653.htm" target="TopicContent">DirectoryStepEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/293077612.htm" target="TopicContent">Info Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/927967602.htm" target="TopicContent">DirectoryStepping Delegate</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1388738533.htm" target="TopicContent">DirectoryWalker Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/980589131.htm" target="TopicContent">DirectoryWalker Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1296523919.htm" target="TopicContent">DirectoryWalker Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1494585321.htm" target="TopicContent">DirectoryWalker Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/377460663.htm" target="TopicContent">DirectoryWalker Constructor (String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1140602738.htm" target="TopicContent">DirectoryWalker Constructor (DirectoryInfo, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/671848387.htm" target="TopicContent">DirectoryWalker Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1847481280.htm" target="TopicContent">AssemblyDirectory Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/361224580.htm" target="TopicContent">DefaultPattern Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1807558389.htm" target="TopicContent">root Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1049745652.htm" target="TopicContent">rootPath Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1321878659.htm" target="TopicContent">DirectoryWalker Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/38240643.htm" target="TopicContent">OnDirectoryStep Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1345700997.htm" target="TopicContent">OnFileStep Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1659174274.htm" target="TopicContent">OnHandleError Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1236906421.htm" target="TopicContent">Walk Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2138589602.htm" target="TopicContent">WalkDirectoryTree Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/639712235.htm" target="TopicContent">WalkDirectoryTree Method (String, FileStepping, DirectoryStepping, HandleSteppingError, String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1887383029.htm" target="TopicContent">WalkDirectoryTree Method (DirectoryInfo, FileStepping, DirectoryStepping, HandleSteppingError, String)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1968603799.htm" target="TopicContent">DirectoryWalker Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1232017030.htm" target="TopicContent">Root Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1724529189.htm" target="TopicContent">RootPath Property </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1808484628.htm" target="TopicContent">SearchPatternsearchPattern Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/358809415.htm" target="TopicContent">FileStepEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1437397290.htm" target="TopicContent">FileStepEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2104619912.htm" target="TopicContent">FileStepEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/580463717.htm" target="TopicContent">FileStepEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/777313068.htm" target="TopicContent">FileStepEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/380219050.htm" target="TopicContent">Info Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/727334817.htm" target="TopicContent">FileStepping Delegate</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/450271014.htm" target="TopicContent">HandleSteppingError Delegate</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1471617057.htm" target="TopicContent">HelpDirectoryWalker Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/281605357.htm" target="TopicContent">HelpDirectoryWalker Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/418842260.htm" target="TopicContent">HelpDirectoryWalker Constructor </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/62357131.htm" target="TopicContent">HelpDirectoryWalker Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1479108362.htm" target="TopicContent">counter Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/21858182.htm" target="TopicContent">Filter Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/803244150.htm" target="TopicContent">Replacement Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1280821966.htm" target="TopicContent">HelpDirectoryWalker Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1666249340.htm" target="TopicContent">OnDirectoryStep Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/2057538464.htm" target="TopicContent">OnFileStep Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/949005438.htm" target="TopicContent">OnHandleError Method </a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/253951151.htm" target="TopicContent">HelpDirectoryWalker Properties</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/191361308.htm" target="TopicContent">Program Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1779267847.htm" target="TopicContent">Program Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1073642615.htm" target="TopicContent">Program Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/138402199.htm" target="TopicContent">HtmlHelpDirectory Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1876857987.htm" target="TopicContent">Program Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/470532252.htm" target="TopicContent">Main Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/792452771.htm" target="TopicContent">StepErrorEventArgs Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/670420326.htm" target="TopicContent">StepErrorEventArgs Members</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/812501362.htm" target="TopicContent">StepErrorEventArgs Constructor </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1029292220.htm" target="TopicContent">StepErrorEventArgs Methods</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/1237460928.htm" target="TopicContent">StepErrorEventArgs Properties</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/1357265907.htm" target="TopicContent">Info Property </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/1855969137.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>

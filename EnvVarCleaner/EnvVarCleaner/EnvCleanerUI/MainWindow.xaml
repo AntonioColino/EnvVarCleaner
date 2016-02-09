@@ -1,0 +1,278 @@
+﻿<Window x:Class="EnvCleanerUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:core="clr-namespace:System;assembly=mscorlib"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:EnvCleanerUI"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        x:Name="MyWindow"
+        Title="MainWindow"
+        Width="972"
+        Height="615"
+        ResizeMode="NoResize"
+        WindowStyle="ToolWindow"
+        mc:Ignorable="d">
+    <Window.Resources>
+        <DropShadowEffect x:Key="MyEffect"
+                          BlurRadius="5"
+                          Direction="-45"
+                          ShadowDepth="7"
+                          Color="#B4B2B2" />
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2"
+                                   SnapsToDevicePixels="true"
+                                   Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"
+                                   StrokeDashArray="1 2"
+                                   StrokeThickness="1" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD" />
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070" />
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#E0FDBE" />
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FFB1A63C" />
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#F6C4C6" />
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF8B4A2C" />
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4" />
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5" />
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383" />
+        <Style x:Key="EnvButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}" />
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}" />
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="Padding" Value="1" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="1"
+                                CornerRadius="5"
+                                Effect="{DynamicResource MyEffect}"
+                                SnapsToDevicePixels="true">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates" />
+                            </VisualStateManager.VisualStateGroups>
+                            <ContentPresenter x:Name="contentPresenter"
+                                              Margin="0,2,2,2"
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              Effect="{DynamicResource MyEffect}"
+                                              Focusable="False"
+                                              RecognizesAccessKey="True"
+                                              SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                              UseLayoutRounding="True" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource Button.MouseOver.Background}" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource Button.MouseOver.Border}" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource Button.Pressed.Background}" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource Button.Pressed.Border}" />
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter TargetName="border" Property="Background" Value="{StaticResource Button.Disabled.Background}" />
+                                <Setter TargetName="border" Property="BorderBrush" Value="{StaticResource Button.Disabled.Border}" />
+                                <Setter TargetName="contentPresenter" Property="TextElement.Foreground" Value="{StaticResource Button.Disabled.Foreground}" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+        </Style>
+    </Window.Resources>
+    <DockPanel Name="Panel1" Effect="{StaticResource MyEffect}">
+        <DockPanel.Background>
+            <ImageBrush AlignmentX="Left"
+                        AlignmentY="Center"
+                        ImageSource="urban.jpg"
+                        Stretch="None" />
+        </DockPanel.Background>
+
+        <DockPanel.Resources>
+            <!--  Create list of enumeration values  -->
+            <ObjectDataProvider x:Key="MyEnum"
+                                MethodName="GetValues"
+                                ObjectType="{x:Type core:Enum}">
+                <ObjectDataProvider.MethodParameters>
+                    <x:Type TypeName="core:EnvironmentVariableTarget" />
+                </ObjectDataProvider.MethodParameters>
+            </ObjectDataProvider>
+            <ObjectDataProvider x:Key="TargetEnum"
+                                MethodName="GetValues"
+                                ObjectType="{x:Type core:Enum}">
+                <ObjectDataProvider.MethodParameters>
+                    <x:Type TypeName="local:EnvVarTarget" />
+                </ObjectDataProvider.MethodParameters>
+            </ObjectDataProvider>
+        </DockPanel.Resources>
+        <StackPanel DockPanel.Dock="Top"
+                    Effect="{StaticResource MyEffect}"
+                    Orientation="Vertical">
+            <StackPanel DockPanel.Dock="Top"
+                        FlowDirection="RightToLeft"
+                        Orientation="Horizontal">
+                <Button Width="125"
+                        Height="50"
+                        Background="#003CA31E"
+                        BorderBrush="Transparent"
+                        Click="HelpOnClick"
+                        ClickMode="Release"
+                        Content="Help"
+                        FontFamily="Stencil Std"
+                        FontSize="18.667"
+                        Style="{DynamicResource EnvButtonStyle}"
+                        ToolTip="exports the enviornment variable entry at the selected index" />
+                <Button Width="125"
+                        Height="50"
+                        Background="#003CA31E"
+                        BorderBrush="Transparent"
+                        Click="ExportOnClick"
+                        ClickMode="Release"
+                        Content="Export"
+                        FontFamily="Stencil Std"
+                        FontSize="18.667"
+                        Style="{DynamicResource EnvButtonStyle}"
+                        ToolTip="exports the enviornment variable entry at the selected index" />
+                <Button Width="125"
+                        Height="50"
+                        Background="#003CA31E"
+                        BorderBrush="Transparent"
+                        Click="ImportOnClick"
+                        ClickMode="Release"
+                        Content="Import"
+                        FontFamily="Stencil Std"
+                        FontSize="18.667"
+                        Style="{DynamicResource EnvButtonStyle}"
+                        ToolTip="imports the enviornment variable entry at the selected index" />
+                <Button Width="125"
+                        Height="50"
+                        Background="#003CA31E"
+                        BorderBrush="Transparent"
+                        Click="CleanOnClick"
+                        ClickMode="Release"
+                        Content="Clean"
+                        FontFamily="Stencil Std"
+                        FontSize="18.667"
+                        Style="{DynamicResource EnvButtonStyle}"
+                        ToolTip="cleans the enviornment variable entry at the selected index" />
+                <Button Width="125"
+                        Height="50"
+                        Background="#003CA31E"
+                        BorderBrush="Transparent"
+                        Click="RemoveOnClick"
+                        ClickMode="Release"
+                        Content="Remove"
+                        FontFamily="Stencil Std"
+                        FontSize="18.667"
+                        Style="{DynamicResource EnvButtonStyle}"
+                        ToolTip="removes the enviornment variable entry at the selected index" />
+                <Button Width="125"
+                        Height="50"
+                        Background="#003CA31E"
+                        BorderBrush="Transparent"
+                        Click="EditOnClick"
+                        ClickMode="Release"
+                        Content="Edit"
+                        FontFamily="Stencil Std"
+                        FontSize="18.667"
+                        Style="{DynamicResource EnvButtonStyle}"
+                        ToolTip="edits the enviornment variable entry at the selected index" />
+                <Button Width="125"
+                        Height="50"
+                        Background="#003CA31E"
+                        BorderBrush="Transparent"
+                        Click="AddOnClick"
+                        ClickMode="Release"
+                        Content="Add"
+                        FontFamily="Stencil Std"
+                        FontSize="18.667"
+                        Style="{DynamicResource EnvButtonStyle}"
+                        ToolTip="adds an enviornment variable to the list" />
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left"
+                        DockPanel.Dock="Top"
+                        Orientation="Horizontal">
+                <TextBlock Height="24"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"
+                           FontSize="14.667"
+                           FontWeight="Bold"
+                           Text="Enviornment Variable Management" />
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                    <CheckBox x:Name="UseShortPathsBox"
+                              Margin="300,0,10,0"
+                              HorizontalAlignment="Right"
+                              VerticalContentAlignment="Center"
+                              Content="Use Short Paths"
+                              FontWeight="Bold"
+                              IsChecked="{Binding UseShortPaths,
+                                                  RelativeSource={RelativeSource FindAncestor,
+                                                                                 AncestorType={x:Type local:MainWindow}}}"
+                              ToolTip="converts variables to their short value representation during clean up." />
+                    <CheckBox x:Name="DeleteUnconfirmedEntriesBox"
+                              Margin="10,0,10,0"
+                              HorizontalAlignment="Right"
+                              VerticalContentAlignment="Center"
+                              Content="Delete Unconfirmed Entries"
+                              FontWeight="Bold"
+                              IsChecked="{Binding DeleteUnconfirmedEntries,
+                                                  RelativeSource={RelativeSource FindAncestor,
+                                                                                 AncestorType={x:Type local:MainWindow}}}"
+                              ToolTip="deletes variables whose paths can not be confirmed during clean up." />
+                    <ComboBox Name="OptionComboBox"
+                              Width="100"
+                              HorizontalAlignment="Right"
+                              ItemsSource="{Binding Source={StaticResource TargetEnum}}"
+                              SelectedItem="{Binding OptionTarget,
+                                                     RelativeSource={RelativeSource FindAncestor,
+                                                                                    AncestorType={x:Type local:MainWindow}}}" />
+                </StackPanel>
+            </StackPanel>
+            <Border Width="{Binding Width,
+                                    RelativeSource={RelativeSource FindAncestor,
+                                                                   AncestorType={x:Type local:MainWindow}}}"
+                    Height="4"
+                    HorizontalAlignment="Left"
+                    Background="Black"
+                    BorderThickness="1"
+                    Effect="{StaticResource MyEffect}"
+                    Visibility="Visible" />
+        </StackPanel>
+        <ScrollViewer Name="Viewer1" HorizontalScrollBarVisibility="Hidden">
+            <DataGrid x:Name="Dg1"
+                      AutoGenerateColumns="False"
+                      ItemsSource="{Binding}">
+                <DataGrid.Columns>
+                    <DataGridTextColumn MaxWidth="250"
+                                        Binding="{Binding Name}"
+                                        CanUserReorder="False"
+                                        Header="Name"
+                                        IsReadOnly="True" />
+                    <DataGridTextColumn MaxWidth="543"
+                                        Binding="{Binding Value}"
+                                        CanUserReorder="False"
+                                        Header="Value"
+                                        IsReadOnly="True" />
+                    <DataGridComboBoxColumn Width="100"
+                                            CanUserReorder="False"
+                                            Header="Target"
+                                            IsReadOnly="True"
+                                            ItemsSource="{Binding Source={StaticResource MyEnum}}"
+                                            SelectedItemBinding="{Binding Target}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </ScrollViewer>
+    </DockPanel>
+</Window>

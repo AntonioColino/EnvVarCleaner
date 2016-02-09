@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AddOnClick method" Url="html/2013990753.htm" />
+  <HelpKINode Title="All enumeration member" Url="html/1869138910.htm" />
+  <HelpKINode Title="All field" Url="html/1974793220.htm" />
+  <HelpKINode Title="AllEnvVarSettings property" Url="html/1708131732.htm" />
+  <HelpKINode Title="App class">
+    <HelpKINode Title="App Class" Url="html/880226621.htm" />
+    <HelpKINode Title="App Members" Url="html/310960102.htm" />
+    <HelpKINode Title="about App class" Url="html/880226621.htm" />
+    <HelpKINode Title="all members" Url="html/310960102.htm" />
+    <HelpKINode Title="fields" Url="html/1077879287.htm" />
+    <HelpKINode Title="methods" Url="html/1943889003.htm" />
+    <HelpKINode Title="properties" Url="html/2118403546.htm" />
+  </HelpKINode>
+  <HelpKINode Title="App.Appdirectory field" Url="html/2069268980.htm" />
+  <HelpKINode Title="App.AppDirectory property" Url="html/2134749149.htm" />
+  <HelpKINode Title="App.Appname field" Url="html/268386483.htm" />
+  <HelpKINode Title="App.AppName property" Url="html/385850962.htm" />
+  <HelpKINode Title="App.Verbose property" Url="html/1037604107.htm" />
+  <HelpKINode Title="Appdirectory field" Url="html/2069268980.htm" />
+  <HelpKINode Title="AppDirectory property" Url="html/2134749149.htm" />
+  <HelpKINode Title="Appname field" Url="html/268386483.htm" />
+  <HelpKINode Title="AppName property" Url="html/385850962.htm" />
+  <HelpKINode Title="AreYouSure field" Url="html/605354924.htm" />
+  <HelpKINode Title="AreYouSureG field" Url="html/441028958.htm" />
+  <HelpKINode Title="AreYouSureIt field" Url="html/438145388.htm" />
+  <HelpKINode Title="AreYouSureOw field" Url="html/438210918.htm" />
+  <HelpKINode Title="AreYouSureWv field" Url="html/438276430.htm" />
+  <HelpKINode Title="AssemblyDirectory field" Url="html/1847481280.htm" />
+  <HelpKINode Title="CancelClicked method" Url="html/874185702.htm" />
+  <HelpKINode Title="CanEditName property" Url="html/1922481241.htm" />
+  <HelpKINode Title="CanEditTarget property" Url="html/178160692.htm" />
+  <HelpKINode Title="CanEditValue property" Url="html/136300488.htm" />
+  <HelpKINode Title="CleanEnvVar method" Url="html/1653967821.htm" />
+  <HelpKINode Title="CleanOnClick method" Url="html/751826041.htm" />
+  <HelpKINode Title="Clear method" Url="html/484695312.htm" />
+  <HelpKINode Title="Comma field" Url="html/1420625526.htm" />
+  <HelpKINode Title="CommitChanges field" Url="html/2027952377.htm" />
+  <HelpKINode Title="CommitPaths field" Url="html/1547685318.htm" />
+  <HelpKINode Title="ConfirmChanges field" Url="html/1366039702.htm" />
+  <HelpKINode Title="Convert method" Url="html/738510850.htm" />
+  <HelpKINode Title="ConvertBack method" Url="html/287330096.htm" />
+  <HelpKINode Title="Copy field" Url="html/1558897136.htm" />
+  <HelpKINode Title="counter field" Url="html/1479108362.htm" />
+  <HelpKINode Title="Culture property" Url="html/2040508016.htm" />
+  <HelpKINode Title="Default property" Url="html/425483267.htm" />
+  <HelpKINode Title="defaultInstance field" Url="html/425509727.htm" />
+  <HelpKINode Title="DefaultPattern field" Url="html/361224580.htm" />
+  <HelpKINode Title="DefaultSetting field" Url="html/2017026096.htm" />
+  <HelpKINode Title="DeleteClicked method" Url="html/1169182418.htm" />
+  <HelpKINode Title="DeleteEnvVar method" Url="html/1014683199.htm" />
+  <HelpKINode Title="DeleteUnconfirmedEntries property" Url="html/2136785103.htm" />
+  <HelpKINode Title="Delimitter field" Url="html/913703064.htm" />
+  <HelpKINode Title="Dg1SelectionChanged method" Url="html/1118979183.htm" />
+  <HelpKINode Title="DirectoryStepEventArgs class">
+    <HelpKINode Title="DirectoryStepEventArgs Class" Url="html/2115169896.htm" />
+    <HelpKINode Title="DirectoryStepEventArgs Members" Url="html/250390626.htm" />
+    <HelpKINode Title="about DirectoryStepEventArgs class" Url="html/2115169896.htm" />
+    <HelpKINode Title="all members" Url="html/250390626.htm" />
+    <HelpKINode Title="constructor" Url="html/1577903931.htm" />
+    <HelpKINode Title="methods" Url="html/482833494.htm" />
+    <HelpKINode Title="properties" Url="html/838976653.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DirectoryStepEventArgs.DirectoryStepEventArgs constructor" Url="html/1577903931.htm" />
+  <HelpKINode Title="DirectoryStepEventArgs.Info property" Url="html/293077612.htm" />
+  <HelpKINode Title="DirectoryStepping delegate" Url="html/927967602.htm" />
+  <HelpKINode Title="DirectoryWalker class">
+    <HelpKINode Title="DirectoryWalker Class" Url="html/1388738533.htm" />
+    <HelpKINode Title="DirectoryWalker Members" Url="html/980589131.htm" />
+    <HelpKINode Title="about DirectoryWalker class" Url="html/1388738533.htm" />
+    <HelpKINode Title="all members" Url="html/980589131.htm" />
+    <HelpKINode Title="constructor" Url="html/1296523919.htm" />
+    <HelpKINode Title="fields" Url="html/671848387.htm" />
+    <HelpKINode Title="methods" Url="html/1321878659.htm" />
+    <HelpKINode Title="properties" Url="html/1968603799.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DirectoryWalker.AssemblyDirectory field" Url="html/1847481280.htm" />
+  <HelpKINode Title="DirectoryWalker.DefaultPattern field" Url="html/361224580.htm" />
+  <HelpKINode Title="DirectoryWalker.DirectoryWalker constructor" Url="html/1296523919.htm" />
+  <HelpKINode Title="DirectoryWalker.OnDirectoryStep method" Url="html/38240643.htm" />
+  <HelpKINode Title="DirectoryWalker.OnFileStep method" Url="html/1345700997.htm" />
+  <HelpKINode Title="DirectoryWalker.OnHandleError method" Url="html/1659174274.htm" />
+  <HelpKINode Title="DirectoryWalker.root field" Url="html/1807558389.htm" />
+  <HelpKINode Title="DirectoryWalker.Root property" Url="html/1232017030.htm" />
+  <HelpKINode Title="DirectoryWalker.rootPath field" Url="html/1049745652.htm" />
+  <HelpKINode Title="DirectoryWalker.RootPath property" Url="html/1724529189.htm" />
+  <HelpKINode Title="DirectoryWalker.SearchPatternsearchPattern property" Url="html/1808484628.htm" />
+  <HelpKINode Title="DirectoryWalker.Walk method" Url="html/1236906421.htm" />
+  <HelpKINode Title="DirectoryWalker.WalkDirectoryTree method" Url="html/2138589602.htm" />
+  <HelpKINode Title="DiscardChanges field" Url="html/611301730.htm" />
+  <HelpKINode Title="DiscardPath field" Url="html/1835954593.htm" />
+  <HelpKINode Title="Divider field" Url="html/503621976.htm" />
+  <HelpKINode Title="EditModel class">
+    <HelpKINode Title="EditModel Class" Url="html/163813593.htm" />
+    <HelpKINode Title="EditModel Members" Url="html/1087607975.htm" />
+    <HelpKINode Title="about EditModel class" Url="html/163813593.htm" />
+    <HelpKINode Title="all members" Url="html/1087607975.htm" />
+    <HelpKINode Title="constructor" Url="html/1034984162.htm" />
+    <HelpKINode Title="fields" Url="html/534424613.htm" />
+    <HelpKINode Title="methods" Url="html/895399272.htm" />
+    <HelpKINode Title="properties" Url="html/472244743.htm" />
+    <HelpKINode Title="type conversions" Url="html/844610699.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EditModel property" Url="html/2092404441.htm" />
+  <HelpKINode Title="EditModel to EnvVarSetting conversion">
+    <HelpKINode Title="Explicit Conversion (EditModel to EnvVarSetting)" Url="html/175477140.htm" />
+    <HelpKINode Title="Implicit Conversion (EditModel to EnvVarSetting)" Url="html/1042065974.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EditModel.CanEditName property" Url="html/1922481241.htm" />
+  <HelpKINode Title="EditModel.CanEditTarget property" Url="html/178160692.htm" />
+  <HelpKINode Title="EditModel.CanEditValue property" Url="html/136300488.htm" />
+  <HelpKINode Title="EditModel.EditModel constructor" Url="html/1034984162.htm" />
+  <HelpKINode Title="EditModel.EmptyString field" Url="html/1241001840.htm" />
+  <HelpKINode Title="EditModel.Name property" Url="html/1859355031.htm" />
+  <HelpKINode Title="EditModel.Target property" Url="html/1440724541.htm" />
+  <HelpKINode Title="EditModel.Value property" Url="html/498499193.htm" />
+  <HelpKINode Title="EditOnClick method" Url="html/1930824685.htm" />
+  <HelpKINode Title="EditWindow class">
+    <HelpKINode Title="EditWindow Class" Url="html/835726701.htm" />
+    <HelpKINode Title="EditWindow Members" Url="html/1722441116.htm" />
+    <HelpKINode Title="about EditWindow class" Url="html/835726701.htm" />
+    <HelpKINode Title="all members" Url="html/1722441116.htm" />
+    <HelpKINode Title="constructor" Url="html/681991983.htm" />
+    <HelpKINode Title="methods" Url="html/1052878465.htm" />
+    <HelpKINode Title="properties" Url="html/644356768.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EditWindow.CancelClicked method" Url="html/874185702.htm" />
+  <HelpKINode Title="EditWindow.DeleteClicked method" Url="html/1169182418.htm" />
+  <HelpKINode Title="EditWindow.EditModel property" Url="html/2092404441.htm" />
+  <HelpKINode Title="EditWindow.EditWindow constructor" Url="html/681991983.htm" />
+  <HelpKINode Title="EditWindow.OnClosing method" Url="html/1937169580.htm" />
+  <HelpKINode Title="EditWindow.Result property" Url="html/901665795.htm" />
+  <HelpKINode Title="EditWindow.SaveClicked method" Url="html/1405282185.htm" />
+  <HelpKINode Title="EditWindow.Setting property" Url="html/1809127219.htm" />
+  <HelpKINode Title="EditWindow.Show method" Url="html/800759687.htm" />
+  <HelpKINode Title="EditWindow.Update method" Url="html/407307.htm" />
+  <HelpKINode Title="EmptyString field">
+    <HelpKINode Title="EmptyString Field" Url="html/624450567.htm" />
+    <HelpKINode Title="EmptyString Field" Url="html/285094580.htm" />
+    <HelpKINode Title="EmptyString Field" Url="html/1241001840.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EndCap field" Url="html/943946799.htm" />
+  <HelpKINode Title="EnvCleanerUI namespace" Url="html/1855969137.htm" />
+  <HelpKINode Title="EnvCleanerUI.App class">
+    <HelpKINode Title="App Class" Url="html/880226621.htm" />
+    <HelpKINode Title="App Members" Url="html/310960102.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.EditModel class">
+    <HelpKINode Title="EditModel Class" Url="html/163813593.htm" />
+    <HelpKINode Title="EditModel Members" Url="html/1087607975.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.EditWindow class">
+    <HelpKINode Title="EditWindow Class" Url="html/835726701.htm" />
+    <HelpKINode Title="EditWindow Members" Url="html/1722441116.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.EnvVarActions class">
+    <HelpKINode Title="EnvVarActions Class" Url="html/438678204.htm" />
+    <HelpKINode Title="EnvVarActions Members" Url="html/54381726.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.EnvVarActions.EnvVarSettingFunction delegate" Url="html/1664856176.htm" />
+  <HelpKINode Title="EnvCleanerUI.EnvVarSetting class">
+    <HelpKINode Title="EnvVarSetting Class" Url="html/658621101.htm" />
+    <HelpKINode Title="EnvVarSetting Members" Url="html/1952430794.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.EnvVarTarget enumeration" Url="html/1869138910.htm" />
+  <HelpKINode Title="EnvCleanerUI.FlipConverter class">
+    <HelpKINode Title="FlipConverter Class" Url="html/1298417988.htm" />
+    <HelpKINode Title="FlipConverter Members" Url="html/247253760.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.MainWindow class">
+    <HelpKINode Title="MainWindow Class" Url="html/179921130.htm" />
+    <HelpKINode Title="MainWindow Members" Url="html/373217484.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.PathName class">
+    <HelpKINode Title="PathName Class" Url="html/261903208.htm" />
+    <HelpKINode Title="PathName Members" Url="html/1288384603.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.PathName.NativeMethods class">
+    <HelpKINode Title="PathName.NativeMethods Class" Url="html/1413140848.htm" />
+    <HelpKINode Title="PathName.NativeMethods Members" Url="html/1281263070.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.Properties namespace" Url="html/488365503.htm" />
+  <HelpKINode Title="EnvCleanerUI.Properties.Resources class">
+    <HelpKINode Title="Resources Class" Url="html/1306097714.htm" />
+    <HelpKINode Title="Resources Members" Url="html/1636972990.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.Properties.Settings class">
+    <HelpKINode Title="Settings Class" Url="html/2144504198.htm" />
+    <HelpKINode Title="Settings Members" Url="html/1943163595.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvCleanerUI.UIText class">
+    <HelpKINode Title="UIText Class" Url="html/617744469.htm" />
+    <HelpKINode Title="UIText Members" Url="html/1622321596.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvVarActions class">
+    <HelpKINode Title="EnvVarActions Class" Url="html/438678204.htm" />
+    <HelpKINode Title="EnvVarActions Members" Url="html/54381726.htm" />
+    <HelpKINode Title="about EnvVarActions class" Url="html/438678204.htm" />
+    <HelpKINode Title="all members" Url="html/54381726.htm" />
+    <HelpKINode Title="methods" Url="html/1370536309.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvVarActions.CleanEnvVar method" Url="html/1653967821.htm" />
+  <HelpKINode Title="EnvVarActions.DeleteEnvVar method" Url="html/1014683199.htm" />
+  <HelpKINode Title="EnvVarActions.EnvVarSettingFunction delegate" Url="html/1664856176.htm" />
+  <HelpKINode Title="EnvVarActions.ExportEnvVar method" Url="html/1541203.htm" />
+  <HelpKINode Title="EnvVarActions.GetEnvironmentVariables method" Url="html/776549370.htm" />
+  <HelpKINode Title="EnvVarActions.HandleError method" Url="html/476663080.htm" />
+  <HelpKINode Title="EnvVarActions.HandleMsg method" Url="html/475300203.htm" />
+  <HelpKINode Title="EnvVarActions.ImportEnvVar method" Url="html/1528195315.htm" />
+  <HelpKINode Title="EnvVarActions.IsExistingEnvVar method" Url="html/263092353.htm" />
+  <HelpKINode Title="EnvVarActions.PathExists method" Url="html/785140689.htm" />
+  <HelpKINode Title="EnvVarActions.QuestionSetting method" Url="html/596354383.htm" />
+  <HelpKINode Title="EnvVarActions.SetEnvVar method" Url="html/467306111.htm" />
+  <HelpKINode Title="EnvVarEntry field" Url="html/796474581.htm" />
+  <HelpKINode Title="EnvVarExists field" Url="html/1616035975.htm" />
+  <HelpKINode Title="EnvVarNotExists field" Url="html/1553366883.htm" />
+  <HelpKINode Title="EnvVarNotFound field" Url="html/1619199783.htm" />
+  <HelpKINode Title="EnvVarNull field" Url="html/600860180.htm" />
+  <HelpKINode Title="EnvVarOriginal field" Url="html/1370477420.htm" />
+  <HelpKINode Title="EnvVarParseError field" Url="html/1971409941.htm" />
+  <HelpKINode Title="EnvVarSetting class">
+    <HelpKINode Title="EnvVarSetting Class" Url="html/658621101.htm" />
+    <HelpKINode Title="EnvVarSetting Members" Url="html/1952430794.htm" />
+    <HelpKINode Title="about EnvVarSetting class" Url="html/658621101.htm" />
+    <HelpKINode Title="all members" Url="html/1952430794.htm" />
+    <HelpKINode Title="constructor" Url="html/1245892027.htm" />
+    <HelpKINode Title="fields" Url="html/537552371.htm" />
+    <HelpKINode Title="methods" Url="html/2108811732.htm" />
+    <HelpKINode Title="properties" Url="html/624722611.htm" />
+    <HelpKINode Title="type conversions" Url="html/1477910282.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvVarSetting to EditModel conversion">
+    <HelpKINode Title="Explicit Conversion (EnvVarSetting to EditModel)" Url="html/311217443.htm" />
+    <HelpKINode Title="Implicit Conversion (EnvVarSetting to EditModel)" Url="html/1417546625.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnvVarSetting.Clear method" Url="html/484695312.htm" />
+  <HelpKINode Title="EnvVarSetting.DefaultSetting field" Url="html/2017026096.htm" />
+  <HelpKINode Title="EnvVarSetting.EmptyString field" Url="html/624450567.htm" />
+  <HelpKINode Title="EnvVarSetting.EnvVarSetting constructor" Url="html/1245892027.htm" />
+  <HelpKINode Title="EnvVarSetting.Equals method" Url="html/453666594.htm" />
+  <HelpKINode Title="EnvVarSetting.FromString method" Url="html/1984800365.htm" />
+  <HelpKINode Title="EnvVarSetting.GetHashCode method" Url="html/1470979684.htm" />
+  <HelpKINode Title="EnvVarSetting.HasAllTargets method" Url="html/1235458844.htm" />
+  <HelpKINode Title="EnvVarSetting.IsTarget method" Url="html/360913991.htm" />
+  <HelpKINode Title="EnvVarSetting.myTarget field" Url="html/2094172227.htm" />
+  <HelpKINode Title="EnvVarSetting.name field" Url="html/1557915845.htm" />
+  <HelpKINode Title="EnvVarSetting.Name property" Url="html/1118659597.htm" />
+  <HelpKINode Title="EnvVarSetting.Target property" Url="html/1848945785.htm" />
+  <HelpKINode Title="EnvVarSetting.ToString method" Url="html/1934954161.htm" />
+  <HelpKINode Title="EnvVarSetting.value field" Url="html/804001611.htm" />
+  <HelpKINode Title="EnvVarSetting.Value property" Url="html/779787267.htm" />
+  <HelpKINode Title="EnvVarTarget enumeration" Url="html/1869138910.htm" />
+  <HelpKINode Title="EnvVarTarget.All field" Url="html/1974793220.htm" />
+  <HelpKINode Title="EnvVarTarget.Machine field" Url="html/1782568352.htm" />
+  <HelpKINode Title="EnvVarTarget.Process field" Url="html/1607755437.htm" />
+  <HelpKINode Title="EnvVarTarget.User field" Url="html/1975139373.htm" />
+  <HelpKINode Title="EnvVarXName field" Url="html/1253054509.htm" />
+  <HelpKINode Title="Equals method" Url="html/453666594.htm" />
+  <HelpKINode Title="ExportEnvVar method" Url="html/1541203.htm" />
+  <HelpKINode Title="ExportOnClick method" Url="html/623042820.htm" />
+  <HelpKINode Title="FileStepEventArgs class">
+    <HelpKINode Title="FileStepEventArgs Class" Url="html/358809415.htm" />
+    <HelpKINode Title="FileStepEventArgs Members" Url="html/1437397290.htm" />
+    <HelpKINode Title="about FileStepEventArgs class" Url="html/358809415.htm" />
+    <HelpKINode Title="all members" Url="html/1437397290.htm" />
+    <HelpKINode Title="constructor" Url="html/2104619912.htm" />
+    <HelpKINode Title="methods" Url="html/580463717.htm" />
+    <HelpKINode Title="properties" Url="html/777313068.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileStepEventArgs.FileStepEventArgs constructor" Url="html/2104619912.htm" />
+  <HelpKINode Title="FileStepEventArgs.Info property" Url="html/380219050.htm" />
+  <HelpKINode Title="FileStepping delegate" Url="html/727334817.htm" />
+  <HelpKINode Title="Filter field" Url="html/21858182.htm" />
+  <HelpKINode Title="FlipConverter class">
+    <HelpKINode Title="FlipConverter Class" Url="html/1298417988.htm" />
+    <HelpKINode Title="FlipConverter Members" Url="html/247253760.htm" />
+    <HelpKINode Title="about FlipConverter class" Url="html/1298417988.htm" />
+    <HelpKINode Title="all members" Url="html/247253760.htm" />
+    <HelpKINode Title="methods" Url="html/778244075.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FlipConverter.Convert method" Url="html/738510850.htm" />
+  <HelpKINode Title="FlipConverter.ConvertBack method" Url="html/287330096.htm" />
+  <HelpKINode Title="FromString method" Url="html/1984800365.htm" />
+  <HelpKINode Title="GetEnvironmentVariables method" Url="html/776549370.htm" />
+  <HelpKINode Title="GetHashCode method" Url="html/1470979684.htm" />
+  <HelpKINode Title="GetLongPathName method">
+    <HelpKINode Title="GetLongPathName Method " Url="html/786403379.htm" />
+    <HelpKINode Title="GetLongPathName Method " Url="html/588480837.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetShortPathName method">
+    <HelpKINode Title="GetShortPathName Method " Url="html/671620428.htm" />
+    <HelpKINode Title="GetShortPathName Method " Url="html/1220622635.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HandleError method" Url="html/476663080.htm" />
+  <HelpKINode Title="HandleMsg method" Url="html/475300203.htm" />
+  <HelpKINode Title="HandleSteppingError delegate" Url="html/450271014.htm" />
+  <HelpKINode Title="HasAllTargets method" Url="html/1235458844.htm" />
+  <HelpKINode Title="HasBeenCleaned field" Url="html/1645537348.htm" />
+  <HelpKINode Title="HasBeenDeleted field" Url="html/1668270361.htm" />
+  <HelpKINode Title="HasBeenSet field" Url="html/1944547883.htm" />
+  <HelpKINode Title="HelpCleaner namespace" Url="html/1859543915.htm" />
+  <HelpKINode Title="HelpCleaner.DirectoryStepEventArgs class">
+    <HelpKINode Title="DirectoryStepEventArgs Class" Url="html/2115169896.htm" />
+    <HelpKINode Title="DirectoryStepEventArgs Members" Url="html/250390626.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HelpCleaner.DirectoryStepping delegate" Url="html/927967602.htm" />
+  <HelpKINode Title="HelpCleaner.DirectoryWalker class">
+    <HelpKINode Title="DirectoryWalker Class" Url="html/1388738533.htm" />
+    <HelpKINode Title="DirectoryWalker Members" Url="html/980589131.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HelpCleaner.FileStepEventArgs class">
+    <HelpKINode Title="FileStepEventArgs Class" Url="html/358809415.htm" />
+    <HelpKINode Title="FileStepEventArgs Members" Url="html/1437397290.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HelpCleaner.FileStepping delegate" Url="html/727334817.htm" />
+  <HelpKINode Title="HelpCleaner.HandleSteppingError delegate" Url="html/450271014.htm" />
+  <HelpKINode Title="HelpCleaner.HelpDirectoryWalker class">
+    <HelpKINode Title="HelpDirectoryWalker Class" Url="html/1471617057.htm" />
+    <HelpKINode Title="HelpDirectoryWalker Members" Url="html/281605357.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HelpCleaner.Program class">
+    <HelpKINode Title="Program Class" Url="html/191361308.htm" />
+    <HelpKINode Title="Program Members" Url="html/1779267847.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HelpCleaner.StepErrorEventArgs class">
+    <HelpKINode Title="StepErrorEventArgs Class" Url="html/792452771.htm" />
+    <HelpKINode Title="StepErrorEventArgs Members" Url="html/670420326.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HelpDirectoryWalker class">
+    <HelpKINode Title="HelpDirectoryWalker Class" Url="html/1471617057.htm" />
+    <HelpKINode Title="HelpDirectoryWalker Members" Url="html/281605357.htm" />
+    <HelpKINode Title="about HelpDirectoryWalker class" Url="html/1471617057.htm" />
+    <HelpKINode Title="all members" Url="html/281605357.htm" />
+    <HelpKINode Title="constructor" Url="html/418842260.htm" />
+    <HelpKINode Title="fields" Url="html/62357131.htm" />
+    <HelpKINode Title="methods" Url="html/1280821966.htm" />
+    <HelpKINode Title="properties" Url="html/253951151.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HelpDirectoryWalker.counter field" Url="html/1479108362.htm" />
+  <HelpKINode Title="HelpDirectoryWalker.Filter field" Url="html/21858182.htm" />
+  <HelpKINode Title="HelpDirectoryWalker.HelpDirectoryWalker constructor" Url="html/418842260.htm" />
+  <HelpKINode Title="HelpDirectoryWalker.OnDirectoryStep method" Url="html/1666249340.htm" />
+  <HelpKINode Title="HelpDirectoryWalker.OnFileStep method" Url="html/2057538464.htm" />
+  <HelpKINode Title="HelpDirectoryWalker.OnHandleError method" Url="html/949005438.htm" />
+  <HelpKINode Title="HelpDirectoryWalker.Replacement field" Url="html/803244150.htm" />
+  <HelpKINode Title="helpFile field" Url="html/631823957.htm" />
+  <HelpKINode Title="HelpFileError field" Url="html/2140923302.htm" />
+  <HelpKINode Title="HelpOnClick method" Url="html/1190604823.htm" />
+  <HelpKINode Title="HtmlHelpDirectory field" Url="html/138402199.htm" />
+  <HelpKINode Title="ImportEnvVar method" Url="html/1528195315.htm" />
+  <HelpKINode Title="ImportOnClick method" Url="html/1683112457.htm" />
+  <HelpKINode Title="Info property">
+    <HelpKINode Title="Info Property " Url="html/380219050.htm" />
+    <HelpKINode Title="Info Property " Url="html/293077612.htm" />
+    <HelpKINode Title="Info Property " Url="html/1357265907.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsExistingEnvVar method" Url="html/263092353.htm" />
+  <HelpKINode Title="IsTarget method" Url="html/360913991.htm" />
+  <HelpKINode Title="L field" Url="html/1640119071.htm" />
+  <HelpKINode Title="Long field" Url="html/7055751.htm" />
+  <HelpKINode Title="Machine enumeration member" Url="html/1869138910.htm" />
+  <HelpKINode Title="Machine field" Url="html/1782568352.htm" />
+  <HelpKINode Title="Main method" Url="html/470532252.htm" />
+  <HelpKINode Title="MainWindow class">
+    <HelpKINode Title="MainWindow Class" Url="html/179921130.htm" />
+    <HelpKINode Title="MainWindow Members" Url="html/373217484.htm" />
+    <HelpKINode Title="about MainWindow class" Url="html/179921130.htm" />
+    <HelpKINode Title="all members" Url="html/373217484.htm" />
+    <HelpKINode Title="constructor" Url="html/1621084941.htm" />
+    <HelpKINode Title="fields" Url="html/1560984748.htm" />
+    <HelpKINode Title="methods" Url="html/568843016.htm" />
+    <HelpKINode Title="properties" Url="html/412832008.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MainWindow.AddOnClick method" Url="html/2013990753.htm" />
+  <HelpKINode Title="MainWindow.AllEnvVarSettings property" Url="html/1708131732.htm" />
+  <HelpKINode Title="MainWindow.CleanOnClick method" Url="html/751826041.htm" />
+  <HelpKINode Title="MainWindow.DeleteUnconfirmedEntries property" Url="html/2136785103.htm" />
+  <HelpKINode Title="MainWindow.Dg1SelectionChanged method" Url="html/1118979183.htm" />
+  <HelpKINode Title="MainWindow.EditOnClick method" Url="html/1930824685.htm" />
+  <HelpKINode Title="MainWindow.ExportOnClick method" Url="html/623042820.htm" />
+  <HelpKINode Title="MainWindow.helpFile field" Url="html/631823957.htm" />
+  <HelpKINode Title="MainWindow.HelpOnClick method" Url="html/1190604823.htm" />
+  <HelpKINode Title="MainWindow.ImportOnClick method" Url="html/1683112457.htm" />
+  <HelpKINode Title="MainWindow.MainWindow constructor" Url="html/1621084941.htm" />
+  <HelpKINode Title="MainWindow.OptionComboBoxOnSelectionChanged method" Url="html/887148646.htm" />
+  <HelpKINode Title="MainWindow.OptionTarget property" Url="html/1170428827.htm" />
+  <HelpKINode Title="MainWindow.RemoveOnClick method" Url="html/1413786171.htm" />
+  <HelpKINode Title="MainWindow.SelectedItem property" Url="html/11589988.htm" />
+  <HelpKINode Title="MainWindow.Update method" Url="html/1642755184.htm" />
+  <HelpKINode Title="MainWindow.UseShortPaths property" Url="html/1452398277.htm" />
+  <HelpKINode Title="MaxPath field">
+    <HelpKINode Title="MaxPath Field" Url="html/1859747914.htm" />
+    <HelpKINode Title="MaxPath Field" Url="html/1209359200.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MboxRangeError field" Url="html/641043657.htm" />
+  <HelpKINode Title="myTarget field" Url="html/2094172227.htm" />
+  <HelpKINode Title="N field" Url="html/477319657.htm" />
+  <HelpKINode Title="name field" Url="html/1557915845.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="Name Property " Url="html/1859355031.htm" />
+    <HelpKINode Title="Name Property " Url="html/1118659597.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NativeMethods.GetLongPathName method" Url="html/786403379.htm" />
+  <HelpKINode Title="NativeMethods.GetShortPathName method" Url="html/1220622635.htm" />
+  <HelpKINode Title="No field" Url="html/689024535.htm" />
+  <HelpKINode Title="NoChanges field" Url="html/275766350.htm" />
+  <HelpKINode Title="NoEnvSelected field" Url="html/1744076386.htm" />
+  <HelpKINode Title="OnClosing method" Url="html/1937169580.htm" />
+  <HelpKINode Title="OnDirectoryStep method">
+    <HelpKINode Title="OnDirectoryStep Method " Url="html/1666249340.htm" />
+    <HelpKINode Title="OnDirectoryStep Method " Url="html/38240643.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnFileStep method">
+    <HelpKINode Title="OnFileStep Method " Url="html/1345700997.htm" />
+    <HelpKINode Title="OnFileStep Method " Url="html/2057538464.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnHandleError method">
+    <HelpKINode Title="OnHandleError Method " Url="html/949005438.htm" />
+    <HelpKINode Title="OnHandleError Method " Url="html/1659174274.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OpenFileExt field" Url="html/598058315.htm" />
+  <HelpKINode Title="OpenFileFilter field" Url="html/586699269.htm" />
+  <HelpKINode Title="OpenFileTitle field" Url="html/962039103.htm" />
+  <HelpKINode Title="OptionComboBoxOnSelectionChanged method" Url="html/887148646.htm" />
+  <HelpKINode Title="OptionTarget property" Url="html/1170428827.htm" />
+  <HelpKINode Title="ParseError field" Url="html/1787516362.htm" />
+  <HelpKINode Title="PathExists method" Url="html/785140689.htm" />
+  <HelpKINode Title="PathName class">
+    <HelpKINode Title="PathName Class" Url="html/261903208.htm" />
+    <HelpKINode Title="PathName Members" Url="html/1288384603.htm" />
+    <HelpKINode Title="about PathName class" Url="html/261903208.htm" />
+    <HelpKINode Title="all members" Url="html/1288384603.htm" />
+    <HelpKINode Title="fields" Url="html/2017647180.htm" />
+    <HelpKINode Title="methods" Url="html/982513943.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PathName.GetLongPathName method" Url="html/588480837.htm" />
+  <HelpKINode Title="PathName.GetShortPathName method" Url="html/671620428.htm" />
+  <HelpKINode Title="PathName.MaxPath field" Url="html/1859747914.htm" />
+  <HelpKINode Title="PathName.NativeMethods class">
+    <HelpKINode Title="PathName.NativeMethods Class" Url="html/1413140848.htm" />
+    <HelpKINode Title="PathName.NativeMethods Members" Url="html/1281263070.htm" />
+    <HelpKINode Title="about PathName.NativeMethods class" Url="html/1413140848.htm" />
+    <HelpKINode Title="all members" Url="html/1281263070.htm" />
+    <HelpKINode Title="methods" Url="html/952070886.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PermentDelete field" Url="html/2060883595.htm" />
+  <HelpKINode Title="Process enumeration member" Url="html/1869138910.htm" />
+  <HelpKINode Title="Process field" Url="html/1607755437.htm" />
+  <HelpKINode Title="Program class">
+    <HelpKINode Title="Program Class" Url="html/191361308.htm" />
+    <HelpKINode Title="Program Members" Url="html/1779267847.htm" />
+    <HelpKINode Title="about Program class" Url="html/191361308.htm" />
+    <HelpKINode Title="all members" Url="html/1779267847.htm" />
+    <HelpKINode Title="fields" Url="html/1073642615.htm" />
+    <HelpKINode Title="methods" Url="html/1876857987.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Program.HtmlHelpDirectory field" Url="html/138402199.htm" />
+  <HelpKINode Title="Program.Main method" Url="html/470532252.htm" />
+  <HelpKINode Title="QuestionChanges field" Url="html/552856648.htm" />
+  <HelpKINode Title="QuestionPaths field" Url="html/231913981.htm" />
+  <HelpKINode Title="QuestionSetting method" Url="html/596354383.htm" />
+  <HelpKINode Title="RemoveOnClick method" Url="html/1413786171.htm" />
+  <HelpKINode Title="Replacement field" Url="html/803244150.htm" />
+  <HelpKINode Title="resourceCulture field" Url="html/990784089.htm" />
+  <HelpKINode Title="resourceMan field" Url="html/1856410267.htm" />
+  <HelpKINode Title="ResourceManager property" Url="html/539019156.htm" />
+  <HelpKINode Title="Resources class">
+    <HelpKINode Title="Resources Class" Url="html/1306097714.htm" />
+    <HelpKINode Title="Resources Members" Url="html/1636972990.htm" />
+    <HelpKINode Title="about Resources class" Url="html/1306097714.htm" />
+    <HelpKINode Title="all members" Url="html/1636972990.htm" />
+    <HelpKINode Title="constructor" Url="html/2031314145.htm" />
+    <HelpKINode Title="fields" Url="html/1081391148.htm" />
+    <HelpKINode Title="methods" Url="html/1407483249.htm" />
+    <HelpKINode Title="properties" Url="html/1925228917.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Resources.Culture property" Url="html/2040508016.htm" />
+  <HelpKINode Title="Resources.resourceCulture field" Url="html/990784089.htm" />
+  <HelpKINode Title="Resources.resourceMan field" Url="html/1856410267.htm" />
+  <HelpKINode Title="Resources.ResourceManager property" Url="html/539019156.htm" />
+  <HelpKINode Title="Resources.Resources constructor" Url="html/2031314145.htm" />
+  <HelpKINode Title="Result property" Url="html/901665795.htm" />
+  <HelpKINode Title="root field" Url="html/1807558389.htm" />
+  <HelpKINode Title="Root property" Url="html/1232017030.htm" />
+  <HelpKINode Title="rootPath field" Url="html/1049745652.htm" />
+  <HelpKINode Title="RootPath property" Url="html/1724529189.htm" />
+  <HelpKINode Title="S field" Url="html/638425590.htm" />
+  <HelpKINode Title="SaveClicked method" Url="html/1405282185.htm" />
+  <HelpKINode Title="SaveFileExt field" Url="html/44324842.htm" />
+  <HelpKINode Title="SaveFileFilter field" Url="html/1037414375.htm" />
+  <HelpKINode Title="SaveFileTitle field" Url="html/965925267.htm" />
+  <HelpKINode Title="SearchPatternsearchPattern property" Url="html/1808484628.htm" />
+  <HelpKINode Title="SelectedItem property" Url="html/11589988.htm" />
+  <HelpKINode Title="SetEnvVar method" Url="html/467306111.htm" />
+  <HelpKINode Title="Setting property" Url="html/1809127219.htm" />
+  <HelpKINode Title="Settings class">
+    <HelpKINode Title="Settings Class" Url="html/2144504198.htm" />
+    <HelpKINode Title="Settings Members" Url="html/1943163595.htm" />
+    <HelpKINode Title="about Settings class" Url="html/2144504198.htm" />
+    <HelpKINode Title="all members" Url="html/1943163595.htm" />
+    <HelpKINode Title="events" Url="html/1783518183.htm" />
+    <HelpKINode Title="fields" Url="html/1896679511.htm" />
+    <HelpKINode Title="methods" Url="html/1933820093.htm" />
+    <HelpKINode Title="properties" Url="html/1285305386.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.Default property" Url="html/425483267.htm" />
+  <HelpKINode Title="Settings.defaultInstance field" Url="html/425509727.htm" />
+  <HelpKINode Title="Short field" Url="html/2057093541.htm" />
+  <HelpKINode Title="Show method" Url="html/800759687.htm" />
+  <HelpKINode Title="StepErrorEventArgs class">
+    <HelpKINode Title="StepErrorEventArgs Class" Url="html/792452771.htm" />
+    <HelpKINode Title="StepErrorEventArgs Members" Url="html/670420326.htm" />
+    <HelpKINode Title="about StepErrorEventArgs class" Url="html/792452771.htm" />
+    <HelpKINode Title="all members" Url="html/670420326.htm" />
+    <HelpKINode Title="constructor" Url="html/812501362.htm" />
+    <HelpKINode Title="methods" Url="html/1029292220.htm" />
+    <HelpKINode Title="properties" Url="html/1237460928.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StepErrorEventArgs.Info property" Url="html/1357265907.htm" />
+  <HelpKINode Title="StepErrorEventArgs.StepErrorEventArgs constructor" Url="html/812501362.htm" />
+  <HelpKINode Title="Target property">
+    <HelpKINode Title="Target Property " Url="html/1440724541.htm" />
+    <HelpKINode Title="Target Property " Url="html/1848945785.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ToString method" Url="html/1934954161.htm" />
+  <HelpKINode Title="UIText class">
+    <HelpKINode Title="UIText Class" Url="html/617744469.htm" />
+    <HelpKINode Title="UIText Members" Url="html/1622321596.htm" />
+    <HelpKINode Title="about UIText class" Url="html/617744469.htm" />
+    <HelpKINode Title="all members" Url="html/1622321596.htm" />
+    <HelpKINode Title="fields" Url="html/142532484.htm" />
+    <HelpKINode Title="methods" Url="html/274139188.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UIText.AreYouSure field" Url="html/605354924.htm" />
+  <HelpKINode Title="UIText.AreYouSureG field" Url="html/441028958.htm" />
+  <HelpKINode Title="UIText.AreYouSureIt field" Url="html/438145388.htm" />
+  <HelpKINode Title="UIText.AreYouSureOw field" Url="html/438210918.htm" />
+  <HelpKINode Title="UIText.AreYouSureWv field" Url="html/438276430.htm" />
+  <HelpKINode Title="UIText.Comma field" Url="html/1420625526.htm" />
+  <HelpKINode Title="UIText.CommitChanges field" Url="html/2027952377.htm" />
+  <HelpKINode Title="UIText.CommitPaths field" Url="html/1547685318.htm" />
+  <HelpKINode Title="UIText.ConfirmChanges field" Url="html/1366039702.htm" />
+  <HelpKINode Title="UIText.Copy field" Url="html/1558897136.htm" />
+  <HelpKINode Title="UIText.Delimitter field" Url="html/913703064.htm" />
+  <HelpKINode Title="UIText.DiscardChanges field" Url="html/611301730.htm" />
+  <HelpKINode Title="UIText.DiscardPath field" Url="html/1835954593.htm" />
+  <HelpKINode Title="UIText.Divider field" Url="html/503621976.htm" />
+  <HelpKINode Title="UIText.EmptyString field" Url="html/285094580.htm" />
+  <HelpKINode Title="UIText.EndCap field" Url="html/943946799.htm" />
+  <HelpKINode Title="UIText.EnvVarEntry field" Url="html/796474581.htm" />
+  <HelpKINode Title="UIText.EnvVarExists field" Url="html/1616035975.htm" />
+  <HelpKINode Title="UIText.EnvVarNotExists field" Url="html/1553366883.htm" />
+  <HelpKINode Title="UIText.EnvVarNotFound field" Url="html/1619199783.htm" />
+  <HelpKINode Title="UIText.EnvVarNull field" Url="html/600860180.htm" />
+  <HelpKINode Title="UIText.EnvVarOriginal field" Url="html/1370477420.htm" />
+  <HelpKINode Title="UIText.EnvVarParseError field" Url="html/1971409941.htm" />
+  <HelpKINode Title="UIText.EnvVarXName field" Url="html/1253054509.htm" />
+  <HelpKINode Title="UIText.HasBeenCleaned field" Url="html/1645537348.htm" />
+  <HelpKINode Title="UIText.HasBeenDeleted field" Url="html/1668270361.htm" />
+  <HelpKINode Title="UIText.HasBeenSet field" Url="html/1944547883.htm" />
+  <HelpKINode Title="UIText.HelpFileError field" Url="html/2140923302.htm" />
+  <HelpKINode Title="UIText.L field" Url="html/1640119071.htm" />
+  <HelpKINode Title="UIText.Long field" Url="html/7055751.htm" />
+  <HelpKINode Title="UIText.MaxPath field" Url="html/1209359200.htm" />
+  <HelpKINode Title="UIText.MboxRangeError field" Url="html/641043657.htm" />
+  <HelpKINode Title="UIText.N field" Url="html/477319657.htm" />
+  <HelpKINode Title="UIText.No field" Url="html/689024535.htm" />
+  <HelpKINode Title="UIText.NoChanges field" Url="html/275766350.htm" />
+  <HelpKINode Title="UIText.NoEnvSelected field" Url="html/1744076386.htm" />
+  <HelpKINode Title="UIText.OpenFileExt field" Url="html/598058315.htm" />
+  <HelpKINode Title="UIText.OpenFileFilter field" Url="html/586699269.htm" />
+  <HelpKINode Title="UIText.OpenFileTitle field" Url="html/962039103.htm" />
+  <HelpKINode Title="UIText.ParseError field" Url="html/1787516362.htm" />
+  <HelpKINode Title="UIText.PermentDelete field" Url="html/2060883595.htm" />
+  <HelpKINode Title="UIText.QuestionChanges field" Url="html/552856648.htm" />
+  <HelpKINode Title="UIText.QuestionPaths field" Url="html/231913981.htm" />
+  <HelpKINode Title="UIText.S field" Url="html/638425590.htm" />
+  <HelpKINode Title="UIText.SaveFileExt field" Url="html/44324842.htm" />
+  <HelpKINode Title="UIText.SaveFileFilter field" Url="html/1037414375.htm" />
+  <HelpKINode Title="UIText.SaveFileTitle field" Url="html/965925267.htm" />
+  <HelpKINode Title="UIText.Short field" Url="html/2057093541.htm" />
+  <HelpKINode Title="UIText.UnknownEnvVarTarget field" Url="html/2060055959.htm" />
+  <HelpKINode Title="UIText.XName field" Url="html/1513974383.htm" />
+  <HelpKINode Title="UIText.XTarget field" Url="html/1897339054.htm" />
+  <HelpKINode Title="UIText.XValue field" Url="html/900456257.htm" />
+  <HelpKINode Title="UIText.Y field" Url="html/168143464.htm" />
+  <HelpKINode Title="UIText.Yes field" Url="html/320333637.htm" />
+  <HelpKINode Title="UnknownEnvVarTarget field" Url="html/2060055959.htm" />
+  <HelpKINode Title="Update method">
+    <HelpKINode Title="Update Method " Url="html/1642755184.htm" />
+    <HelpKINode Title="Update Method " Url="html/407307.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User enumeration member" Url="html/1869138910.htm" />
+  <HelpKINode Title="User field" Url="html/1975139373.htm" />
+  <HelpKINode Title="UseShortPaths property" Url="html/1452398277.htm" />
+  <HelpKINode Title="value field" Url="html/804001611.htm" />
+  <HelpKINode Title="Value property">
+    <HelpKINode Title="Value Property " Url="html/498499193.htm" />
+    <HelpKINode Title="Value Property " Url="html/779787267.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Verbose property" Url="html/1037604107.htm" />
+  <HelpKINode Title="Walk method" Url="html/1236906421.htm" />
+  <HelpKINode Title="WalkDirectoryTree method" Url="html/2138589602.htm" />
+  <HelpKINode Title="XName field" Url="html/1513974383.htm" />
+  <HelpKINode Title="XTarget field" Url="html/1897339054.htm" />
+  <HelpKINode Title="XValue field" Url="html/900456257.htm" />
+  <HelpKINode Title="Y field" Url="html/168143464.htm" />
+  <HelpKINode Title="Yes field" Url="html/320333637.htm" />
+</HelpKI>

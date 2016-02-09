@@ -1,0 +1,54 @@
+<GhostDoc>
+<IgnoreFilePatterns>
+  <IgnoreFilePattern>*.min.js</IgnoreFilePattern>
+  <IgnoreFilePattern>jquery*.js</IgnoreFilePattern>
+</IgnoreFilePatterns>
+  <SpellChecker>
+    <IncludeExtensions>
+    </IncludeExtensions>
+    <IgnoreExtensions>
+    </IgnoreExtensions>
+    <IgnoreFiles>
+    </IgnoreFiles>
+  </SpellChecker>
+<HelpConfigurations selected="HelpFile">
+  <HelpConfiguration name="HelpFile">
+    <OutputPath>.\Help</OutputPath>
+    <CleanupOutputPath>true</CleanupOutputPath>
+    <HelpFileName>EnvVarCleaner</HelpFileName>
+    <ImageFolderPath />
+    <Theme>FlatGray</Theme>
+    <HtmlFormats>
+      <HtmlHelp>true</HtmlHelp>
+      <MSHelpViewer>false</MSHelpViewer>
+      <MSHelp2>false</MSHelp2>
+      <Website>true</Website>
+    </HtmlFormats>
+    <IncludeScopes>
+      <Public>true</Public>
+      <Internal>true</Internal>
+      <Protected>true</Protected>
+      <Private>true</Private>
+      <Inherited>true</Inherited>
+      <InheritedFromReferences>true</InheritedFromReferences>
+      <EnableTags>false</EnableTags>
+      <TagList />
+    </IncludeScopes>
+    <SyntaxLanguages>
+      <CSharp>true</CSharp>
+      <VisualBasic>true</VisualBasic>
+      <CPlusPlus>true</CPlusPlus>
+    </SyntaxLanguages>
+    <ResolveCrefLinks>true</ResolveCrefLinks>
+    <HeaderText>Enviornment Variable Cleaner</HeaderText>
+    <FooterText>THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE.</FooterText>
+    <SelectedProjects>
+      <SelectedProject>EnvCleanerUI</SelectedProject>
+      <SelectedProject>HelpCleaner</SelectedProject>
+    </SelectedProjects>
+  </HelpConfiguration>
+</HelpConfigurations>
+<GeneralProperties>
+  <SearchInheritedCommentsOnlyWithinProject>False</SearchInheritedCommentsOnlyWithinProject>
+</GeneralProperties>
+</GhostDoc>

@@ -1,6 +1,5 @@
 # EnvVarCleaner
-Enviornment Variable Cleaner
-This project was originally created to fix an overcrowded path variable that led to not being able to install software due to it. Using short names, although not really human readable, are great for keeping the variable length down as well as deleting the entries that do not have any associated file or directory any longer. This allows you to do that as well as convert them back to long path values for human readability. Also allows backup and restore of enviornment variables. With all the cleaners, registry, browser, why not enviornment variables? 
+Environment Variable Cleaner This project was originally created to fix an overcrowded path variable that led to not being able to install software due to it. Using short names, although not really human readable, are great for keeping the variable length down as well as deleting the entries that do not have any associated file or directory any longer. This allows you to do that as well as convert them back to long path values for human readability. Also allows backup and restore of environment variables. With all the cleaners, registry, browser, why not environment variables?
 
 RegularJoeSoftware EnvVarCleaner
 ====================================================================
